@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provider Dashboard</title>
+    <link rel="stylesheet" href="../styles/provider_dashboard.css">
+
+</head>
+<body>
+    <div class="dashboard-container">
+        <button id="logoutButton">Logout</button>
+        <h2>Provider Dashboard</h2>
+        <div id="provider-info"></div>
+
+        <div>
+            <h3>Services Offered</h3>
+            <ul id="servicesList"></ul>
+        </div>
+
+        <div>
+            <h3>Add/Update Service</h3>
+            <form id="addServiceForm">
+                <input type="text" id="serviceName" placeholder="Service Name" required>
+                <textarea id="serviceDescription" placeholder="Service Description" required></textarea>
+                <button type="submit">Add Service</button>
+            </form>
+        </div>
+
+        <div>
+            <h3>Feedback & Ban Status</h3>
+            <ul id="feedbackList"></ul>
+            <p id="banStatus"></p>
+        </div>
+
+        <div>
+            <h3>Status</h3>
+            <p id="status"></p>
+        </div>
+    </div>
+    <script src="../scripts/provider_dashboard.js"></script>
+</body>
+</html>

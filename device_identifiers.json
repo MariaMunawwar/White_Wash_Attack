@@ -1,0 +1,128 @@
+[
+  {
+    "ipAddress": "192.168.10.1",
+    "imei": "166456789042341",
+    "macAddress": "00:55:22:11:23:91",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.2",
+    "imei": "167456789042342",
+    "macAddress": "00:56:22:11:23:92",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.3",
+    "imei": "168456789042343",
+    "macAddress": "00:57:22:11:23:93",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.4",
+    "imei": "169456789042343",
+    "macAddress": "00:58:22:11:23:94",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.5",
+    "imei": "170456789042343",
+    "macAddress": "00:59:22:11:23:95",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.6",
+    "imei": "171456789042343",
+    "macAddress": "00:60:22:11:23:96",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.7",
+    "imei": "172456789042343",
+    "macAddress": "00:61:22:11:23:97",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.8",
+    "imei": "173456789042343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "174456789042343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "175456789042343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "176456789042343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "177456789042343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "177456789242343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "177456789442343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "277456789442343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.9",
+    "imei": "777456789442343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.10.1",
+    "imei": "797456789442343",
+    "macAddress": "00:61:22:11:23:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "194.118.11.9",
+    "imei": "237456789342344",
+    "macAddress": "00:61:22:61:23:98",
+    "assigned": false
+  },
+  {
+    "ipAddress": "194.170.10.3",
+    "imei": "812456789442343",
+    "macAddress": "00:61:22:66:23:98",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.147.21.67",
+    "imei": "343433422244312",
+    "macAddress": "00:15:92:21:53:99",
+    "assigned": false
+  },
+  {
+    "ipAddress": "178.34.128.12",
+    "imei": "521344098743211",
+    "macAddress": "00:47:16:89:31:22",
+    "assigned": false
+  }
+]

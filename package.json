@@ -1,0 +1,26 @@
+{
+  "name": "white_wash_attack",
+  "version": "1.0.0",
+  "description": "This repository is intended for managing the code of our research project on the WhiteWash attack. <br> 'app.js' file is for the backend part of our application. It sets up the server, defines endpoints, and interacts with the database. This backend will serve as the intermediary between our frontend and the blockchain.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0",
+    "web3": "^1.10.0"
+    
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requester Dashboard</title>
+    <link rel="stylesheet" href="../styles/requester_dashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <button id="logoutButton">Logout</button>
+        <h2>Requester Dashboard</h2>
+        <div id="requester-info"></div>
+        
+        <div>
+            <h3>Services Availed</h3>
+            <ul id="availedServicesList"></ul>
+        </div>
+
+        <div>
+            <h3>Available Services</h3>
+            <ul id="availableServicesList"></ul>
+        </div>
+
+        <div id="feedback-section">
+            <h3>Provide Feedback</h3>
+            <form id="feedbackForm">
+                <input type="text" id="serviceId" placeholder="Service ID" required />
+                <input type="number" id="rating" placeholder="Rating (1-100)" required />
+                <textarea id="comment" placeholder="Your feedback"></textarea>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+        
+        
+    </div>
+    <script src="../scripts/requester_dashboard.js"></script>
+</body>
+</html>
