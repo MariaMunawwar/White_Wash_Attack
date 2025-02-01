@@ -20,12 +20,12 @@ const DeviceContractRegistryArtifact = require('./smartId-contracts/build/contra
 
 const SmartIdentity = new web3.eth.Contract(
     SmartIdentityArtifact.abi, 
-    '0xE84dc97b5ccD12645f07e55D1dD6692A5C8df047'
+    '0x7385a6b0E3D84eF19178e348f164D2f3eEBBe4F3'
 );
 
 const DeviceContractRegistry = new web3.eth.Contract(
     DeviceContractRegistryArtifact.abi, 
-    '0x52aF07A5D95c20c7F5702bC1bef4c5F68858BC18'
+    '0x37Cac226C49Fe6eED156DA8f19eC74fbAD0051bF'
 );
 
 const app = express();

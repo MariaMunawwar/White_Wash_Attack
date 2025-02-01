@@ -1100,7 +1100,7 @@
   "sourceMap": "57:495:0:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "57:495:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;435:115;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;202:165;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;95:50;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;435:115;494:4;517:18;:26;536:6;517:26;;;;;;;;;;;;;;;;;;;;;510:33;;435:115;;;:::o;202:165::-;265:18;:26;284:6;265:26;;;;;;;;;;;;;;;;;;;;;264:27;256:61;;;;;;;;;;;;:::i;:::-;;;;;;;;;356:4;327:18;:26;346:6;327:26;;;;;;;;;;;;:33;;;;;;;;;;;;;;;;;;202:165;:::o;95:50::-;;;;;;;;;;;;;;;;;;;;;;:::o;7:139:3:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:109::-;501:21;516:5;501:21;:::i;:::-;496:3;489:34;479:50;;:::o;535:319::-;;698:67;762:2;757:3;698:67;:::i;:::-;691:74;;795:23;791:1;786:3;782:11;775:44;845:2;840:3;836:12;829:19;;681:173;;;:::o;860:210::-;;985:2;974:9;970:18;962:26;;998:65;1060:1;1049:9;1045:17;1036:6;998:65;:::i;:::-;952:118;;;;:::o;1076:419::-;;1280:2;1269:9;1265:18;1257:26;;1329:9;1323:4;1319:20;1315:1;1304:9;1300:17;1293:47;1357:131;1483:4;1357:131;:::i;:::-;1349:139;;1247:248;;;:::o;1501:169::-;;1619:6;1614:3;1607:19;1659:4;1654:3;1650:14;1635:29;;1597:73;;;;:::o;1676:90::-;;1753:5;1746:13;1739:21;1728:32;;1718:48;;;:::o;1772:77::-;;1838:5;1827:16;;1817:32;;;:::o;1855:122::-;1928:24;1946:5;1928:24;:::i;:::-;1921:5;1918:35;1908:2;;1967:1;1964;1957:12;1908:2;1898:79;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract DeviceContractRegistry {\n    mapping(bytes32 => bool) public registeredIPHashes;\n\n    // Function to store a hash of the IP address\n    function storeIPHash(bytes32 ipHash) public {\n        require(!registeredIPHashes[ipHash], \"IP already registered\");\n        registeredIPHashes[ipHash] = true;\n    }\n\n    // Function to verify if an IP address hash is registered\n    function verifyIPHash(bytes32 ipHash) public view returns (bool) {\n        return registeredIPHashes[ipHash];\n    }\n}\n",
-  "sourcePath": "/Users/mariakhan/Desktop/WhiteWash/White_Wash_Attack/smartId-contracts/contracts/DeviceContractRegistry.sol",
+  "sourcePath": "/Users/mariakhan/Desktop/whitewash_Repo/White_Wash_Attack/smartId-contracts/contracts/DeviceContractRegistry.sol",
   "ast": {
     "absolutePath": "project:/contracts/DeviceContractRegistry.sol",
     "exportedSymbols": {
@@ -1625,10 +1625,16 @@
       "links": {},
       "address": "0x52aF07A5D95c20c7F5702bC1bef4c5F68858BC18",
       "transactionHash": "0xa25031848dc4d5c302ae231e7fa11678f79e9319954bf6a47facf6b6a94324d8"
+    },
+    "1737968779599": {
+      "events": {},
+      "links": {},
+      "address": "0x37Cac226C49Fe6eED156DA8f19eC74fbAD0051bF",
+      "transactionHash": "0xaa5296199793e012b62bf51f96f0906571ff3524d3a147a8f5e2a0485d6a7639"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-01-25T09:31:05.528Z",
+  "updatedAt": "2025-01-27T09:07:19.643Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
