@@ -143,3 +143,6 @@ This project integrates the [Smart Identity Contracts](https://github.com/SmartI
 
 For any questions or issues, feel free to contact us or raise an issue in the repository.  
 
+## License
+
+[Apache License 2.0](LICENSE)
