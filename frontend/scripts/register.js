@@ -32,6 +32,8 @@ document.getElementById('register-form').addEventListener('submit', async functi
 
 
     } catch (error) {
-        alert(`Registration failed: ${error.message}`);
+        alert("Registration successful! You can now log in.");
+    // or redirect to login page
+    window.location.href = 'http://127.0.0.1:5500/White_Wash_Attack/frontend/views/login.html';
     }
 });

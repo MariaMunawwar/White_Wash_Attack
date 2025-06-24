@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Service Feedback</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .feedback-container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .feedback-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .feedback-header h2 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .feedback-header p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .parameter-group {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .parameter-label {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .parameter-description {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .rating-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .rating-scale {
+            display: flex;
+            gap: 10px;
+        }
+
+        .rating-option {
+            position: relative;
+        }
+
+        .rating-option input[type="radio"] {
+            opacity: 0;
+            position: absolute;
+        }
+
+        .rating-option label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 50px;
+            background: white;
+        }
+
+        .rating-option input[type="radio"]:checked + label {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .rating-option label:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .rating-number {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .rating-text {
+            font-size: 10px;
+            margin-top: 2px;
+        }
+
+        .comment-group {
+            margin-bottom: 30px;
+        }
+
+        .comment-group label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .comment-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            resize: vertical;
+            min-height: 100px;
+            font-family: inherit;
+            font-size: 14px;
+        }
+
+        .comment-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .success-message {
+            display: none;
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .error-message {
+            display: none;
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .navigation-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+
+        .navigation-btn:hover {
+            background: #5a6268;
+        }
+
+        @media (max-width: 768px) {
+            .feedback-container {
+                padding: 20px;
+            }
+            
+            .rating-scale {
+                justify-content: space-between;
+            }
+            
+            .rating-option label {
+                min-width: 40px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="feedback-container">
+        <div class="feedback-header">
+            <h2>Service Feedback</h2>
+            <p>Please rate your experience with this service provider</p>
+        </div>
+
+        <form id="feedbackForm">
+            <!-- Service Info Display -->
+            <div class="parameter-group">
+                <div class="parameter-label">Service Information</div>
+                <div id="serviceInfo">
+                    <p><strong>Service ID:</strong> <span id="displayServiceId">Loading...</span></p>
+                    <p><strong>Provider ID:</strong> <span id="displayProviderId">Loading...</span></p>
+                </div>
+            </div>
+
+            <!-- Availability Parameter -->
+            <div class="parameter-group">
+                <div class="parameter-label">Availability</div>
+                <div class="parameter-description">
+                    Was the service available when needed? Did the provider respond on time?
+                </div>
+                <div class="rating-container">
+                    <div class="rating-scale">
+                        <div class="rating-option">
+                            <input type="radio" id="availability1" name="availability" value="1" required>
+                            <label for="availability1">
+                                <span class="rating-number">1</span>
+                                <span class="rating-text">Poor</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="availability2" name="availability" value="2">
+                            <label for="availability2">
+                                <span class="rating-number">2</span>
+                                <span class="rating-text">Fair</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="availability3" name="availability" value="3">
+                            <label for="availability3">
+                                <span class="rating-number">3</span>
+                                <span class="rating-text">Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="availability4" name="availability" value="4">
+                            <label for="availability4">
+                                <span class="rating-number">4</span>
+                                <span class="rating-text">Very Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="availability5" name="availability" value="5">
+                            <label for="availability5">
+                                <span class="rating-number">5</span>
+                                <span class="rating-text">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Avoidance Parameter (CHANGED FROM RESPONSIVENESS) -->
+            <div class="parameter-group">
+                <div class="parameter-label">Avoidance</div>
+                <div class="parameter-description">
+                    Did the provider avoid delays or ignoring your requests? (Higher score = better avoidance of issues)
+                </div>
+                <div class="rating-container">
+                    <div class="rating-scale">
+                        <div class="rating-option">
+                            <input type="radio" id="avoidance1" name="avoidance" value="1" required>
+                            <label for="avoidance1">
+                                <span class="rating-number">1</span>
+                                <span class="rating-text">Poor</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="avoidance2" name="avoidance" value="2">
+                            <label for="avoidance2">
+                                <span class="rating-number">2</span>
+                                <span class="rating-text">Fair</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="avoidance3" name="avoidance" value="3">
+                            <label for="avoidance3">
+                                <span class="rating-number">3</span>
+                                <span class="rating-text">Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="avoidance4" name="avoidance" value="4">
+                            <label for="avoidance4">
+                                <span class="rating-number">4</span>
+                                <span class="rating-text">Very Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="avoidance5" name="avoidance" value="5">
+                            <label for="avoidance5">
+                                <span class="rating-number">5</span>
+                                <span class="rating-text">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Communication Parameter -->
+            <div class="parameter-group">
+                <div class="parameter-label">Communication</div>
+                <div class="parameter-description">
+                    How clear and effective was the communication between you and the provider?
+                </div>
+                <div class="rating-container">
+                    <div class="rating-scale">
+                        <div class="rating-option">
+                            <input type="radio" id="communication1" name="communication" value="1" required>
+                            <label for="communication1">
+                                <span class="rating-number">1</span>
+                                <span class="rating-text">Poor</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="communication2" name="communication" value="2">
+                            <label for="communication2">
+                                <span class="rating-number">2</span>
+                                <span class="rating-text">Fair</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="communication3" name="communication" value="3">
+                            <label for="communication3">
+                                <span class="rating-number">3</span>
+                                <span class="rating-text">Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="communication4" name="communication" value="4">
+                            <label for="communication4">
+                                <span class="rating-number">4</span>
+                                <span class="rating-text">Very Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="communication5" name="communication" value="5">
+                            <label for="communication5">
+                                <span class="rating-number">5</span>
+                                <span class="rating-text">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Credibility Parameter -->
+            <div class="parameter-group">
+                <div class="parameter-label">Credibility</div>
+                <div class="parameter-description">
+                    Was the information or service trustworthy and delivered as promised?
+                </div>
+                <div class="rating-container">
+                    <div class="rating-scale">
+                        <div class="rating-option">
+                            <input type="radio" id="credibility1" name="credibility" value="1" required>
+                            <label for="credibility1">
+                                <span class="rating-number">1</span>
+                                <span class="rating-text">Poor</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="credibility2" name="credibility" value="2">
+                            <label for="credibility2">
+                                <span class="rating-number">2</span>
+                                <span class="rating-text">Fair</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="credibility3" name="credibility" value="3">
+                            <label for="credibility3">
+                                <span class="rating-number">3</span>
+                                <span class="rating-text">Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="credibility4" name="credibility" value="4">
+                            <label for="credibility4">
+                                <span class="rating-number">4</span>
+                                <span class="rating-text">Very Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="credibility5" name="credibility" value="5">
+                            <label for="credibility5">
+                                <span class="rating-number">5</span>
+                                <span class="rating-text">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reliability Parameter -->
+            <div class="parameter-group">
+                <div class="parameter-label">Reliability</div>
+                <div class="parameter-description">
+                    Was the provider consistently dependable and accurate throughout the service?
+                </div>
+                <div class="rating-container">
+                    <div class="rating-scale">
+                        <div class="rating-option">
+                            <input type="radio" id="reliability1" name="reliability" value="1" required>
+                            <label for="reliability1">
+                                <span class="rating-number">1</span>
+                                <span class="rating-text">Poor</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="reliability2" name="reliability" value="2">
+                            <label for="reliability2">
+                                <span class="rating-number">2</span>
+                                <span class="rating-text">Fair</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="reliability3" name="reliability" value="3">
+                            <label for="reliability3">
+                                <span class="rating-number">3</span>
+                                <span class="rating-text">Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="reliability4" name="reliability" value="4">
+                            <label for="reliability4">
+                                <span class="rating-number">4</span>
+                                <span class="rating-text">Very Good</span>
+                            </label>
+                        </div>
+                        <div class="rating-option">
+                            <input type="radio" id="reliability5" name="reliability" value="5">
+                            <label for="reliability5">
+                                <span class="rating-number">5</span>
+                                <span class="rating-text">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comment Section -->
+            <div class="comment-group">
+                <label for="comment">Additional Comments (Optional)</label>
+                <textarea id="comment" name="comment" placeholder="Share any additional feedback about your experience..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
+        </form>
+
+        <div class="loading" id="loading">
+            <p>Submitting feedback...</p>
+        </div>
+
+        <div class="success-message" id="successMessage">
+            <strong>Thank you!</strong> Your feedback has been submitted successfully.
+            <br><br>
+            <a href="requester_dashboard.html" class="navigation-btn">Back to Dashboard</a>
+        </div>
+
+        <div class="error-message" id="errorMessage">
+            <strong>Error!</strong> <span id="errorText">Something went wrong. Please try again.</span>
+        </div>
+    </div>
+
+    <script>
+        // Get URL parameters to identify the service and provider
+        const urlParams = new URLSearchParams(window.location.search);
+        const serviceId = urlParams.get('serviceId');
+        const providerId = urlParams.get('providerId');
+        
+        // Get user credentials from localStorage
+        const userId = localStorage.getItem('userId');
+        const token = localStorage.getItem('userToken');
+        
+        // Display service information
+        document.getElementById('displayServiceId').textContent = serviceId || 'Not provided';
+        document.getElementById('displayProviderId').textContent = providerId || 'Not provided';
+        
+        document.getElementById('feedbackForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const loading = document.getElementById('loading');
+            const successMessage = document.getElementById('successMessage');
+            const errorMessage = document.getElementById('errorMessage');
+            const errorText = document.getElementById('errorText');
+            
+            // Hide previous messages
+            successMessage.style.display = 'none';
+            errorMessage.style.display = 'none';
+            
+            // Show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+            loading.style.display = 'block';
+            
+            try {
+                // Get form data
+                const formData = new FormData(this);
+                
+                // FIXED: Use correct parameter names and structure
+                const feedbackData = {
+                    requester_id: userId,
+                    service_id: serviceId,
+                    provider_id: providerId,
+                    rating: 0, // Will be calculated from parameters
+                    comment: formData.get('comment') || '',
+                    // Use the exact parameter names expected by backend
+                    availability: parseInt(formData.get('availability')),
+                    avoidance: parseInt(formData.get('avoidance')), // Changed from responsiveness
+                    communication: parseInt(formData.get('communication')),
+                    credibility: parseInt(formData.get('credibility')),
+                    reliability: parseInt(formData.get('reliability'))
+                };
+                
+                console.log('Sending feedback data:', feedbackData);
+                
+                // Validate required parameters
+                if (!feedbackData.requester_id || !feedbackData.service_id || !feedbackData.provider_id) {
+                    throw new Error('Missing required information. Please ensure you accessed this page correctly.');
+                }
+                
+                // Send to backend
+                const response = await fetch('http://127.0.0.1:3001/submit-feedback', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify(feedbackData)
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log('Feedback submitted successfully:', result);
+                    // Success
+                    successMessage.style.display = 'block';
+                    this.style.display = 'none'; // Hide form
+                } else {
+                    // Error from server
+                    const errorData = await response.text();
+                    console.error('Server error:', errorData);
+                    throw new Error(errorData || 'Server error occurred');
+                }
+                
+            } catch (error) {
+                console.error('Error submitting feedback:', error);
+                errorText.textContent = error.message;
+                errorMessage.style.display = 'block';
+            } finally {
+                // Reset button state
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit Feedback';
+                loading.style.display = 'none';
+            }
+        });
+
+        // Check if required parameters are present
+        window.addEventListener('load', function() {
+            if (!serviceId || !providerId) {
+                document.getElementById('errorMessage').style.display = 'block';
+                document.getElementById('errorText').textContent = 'Missing service or provider information. Please access this page through the proper link.';
+                document.getElementById('feedbackForm').style.display = 'none';
+            }
+            
+            if (!userId || !token) {
+                document.getElementById('errorMessage').style.display = 'block';
+                document.getElementById('errorText').textContent = 'User not authenticated. Please login again.';
+                document.getElementById('feedbackForm').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

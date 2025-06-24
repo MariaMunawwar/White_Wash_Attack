@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const ownerAddress = localStorage.getItem('userAddress'); 
 
     if (!userId || !token) {
-        window.location.href = '/login.html';
+        window.location.href = 'http://127.0.0.1:5500/White_Wash_Attack/frontend/views/login.html';
         return;
     }
 
@@ -136,7 +136,8 @@ const logout = () => {
     localStorage.removeItem('userId');      // Remove user ID
     localStorage.removeItem('userAddress'); // Remove user address
    // window.location.href = '/views/login.html';// Redirect to the login page
-   window.location.href = 'http://127.0.0.1:3001/login.html'; 
+  // window.location.href = 'http://127.0.0.1:3001/login.html'; 
+  window.location.href = 'http://127.0.0.1:5500/White_Wash_Attack/frontend/views/login.html';
 };
 
 // Attach the logout function to the logout button

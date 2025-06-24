@@ -4,36 +4,852 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Requester Dashboard</title>
-    <link rel="stylesheet" href="../styles/requester_dashboard.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .dashboard-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .dashboard-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            position: relative;
+        }
+
+        .dashboard-header h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        #logoutButton {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        #logoutButton:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .dashboard-content {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .info-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            grid-column: 1 / -1;
+        }
+
+        /* NEW: Trust Reputation Card for Requesters */
+        .trust-reputation-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e9ecef;
+            grid-column: 1 / -1;
+        }
+
+        .reputation-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .reputation-header h4 {
+            margin: 0;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .overall-score {
+            text-align: center;
+            padding: 10px 15px;
+            border-radius: 8px;
+            min-width: 80px;
+        }
+
+        .overall-score[data-category="white"] {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+        }
+
+        .overall-score[data-category="grey"] {
+            background: linear-gradient(135deg, #ffc107, #fd7e14);
+            color: white;
+        }
+
+        .overall-score[data-category="black"] {
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            color: white;
+        }
+
+        .score-number {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1;
+        }
+
+        .score-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .parameter-scores {
+            margin: 20px 0;
+        }
+
+        .parameter-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            gap: 15px;
+        }
+
+        .parameter-name {
+            font-weight: 500;
+            color: #555;
+            min-width: 120px;
+            font-size: 14px;
+        }
+
+        .score-bar {
+            flex-grow: 1;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .score-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        .score-value {
+            font-weight: 600;
+            color: #333;
+            min-width: 35px;
+            text-align: right;
+            font-size: 14px;
+        }
+
+        .reputation-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+        }
+
+        .feedback-count {
+            color: #666;
+        }
+
+        .trust-category {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        .white-category {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .grey-category {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .black-category {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .services-section {
+            margin-bottom: 30px;
+        }
+
+        .services-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 22px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .service-item {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            border: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .service-info {
+            flex-grow: 1;
+        }
+
+        .service-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .service-description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .service-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .loading-state {
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+        }
+
+        .error-state {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        /* NEW: Feedback received section */
+        .feedback-received-section {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .feedback-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            border: 1px solid #f0e68c;
+        }
+
+        .feedback-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .feedback-rating {
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .feedback-parameters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 8px;
+            margin: 10px 0;
+        }
+
+        .param-badge {
+            background: #fff3cd;
+            padding: 4px 8px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 11px;
+        }
+
+        .param-name {
+            font-weight: 600;
+            color: #856404;
+        }
+
+        .param-value {
+            color: #b8860b;
+            font-weight: 700;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .service-item {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 15px;
+            }
+
+            .service-actions {
+                justify-content: center;
+            }
+
+            .dashboard-header {
+                padding: 20px;
+            }
+
+            .dashboard-header h2 {
+                font-size: 24px;
+                margin-right: 100px;
+            }
+
+            #logoutButton {
+                top: 15px;
+                right: 15px;
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+
+            .reputation-header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            
+            .parameter-item {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+            }
+            
+            .parameter-name {
+                min-width: auto;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="dashboard-container">
-        <button id="logoutButton">Logout</button>
-        <h2>Requester Dashboard</h2>
-        <div id="requester-info"></div>
-        
-        <div>
-            <h3>Services Availed</h3>
-            <ul id="availedServicesList"></ul>
+        <div class="dashboard-header">
+            <button id="logoutButton">Logout</button>
+            <h2>Requester Dashboard</h2>
+            <p>Manage your service requests and maintain your reputation</p>
         </div>
+        
+        <div class="dashboard-content">
+            <div id="requester-info" class="info-section">
+                <div class="loading-state">Loading user information...</div>
+            </div>
+            
+            <!-- NEW: Requester Trust Reputation Display -->
+            <div class="trust-reputation-card">
+                <div class="reputation-header">
+                    <h4>Your Trust Reputation (From Providers)</h4>
+                    <div class="overall-score" data-category="white">
+                        <span class="score-number">100</span>
+                        <span class="score-label">Trust Score</span>
+                    </div>
+                </div>
+                
+                <div class="parameter-scores">
+                    <div class="parameter-item">
+                        <span class="parameter-name">Payment</span>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="score-value">5.0</span>
+                    </div>
+                    
+                    <div class="parameter-item">
+                        <span class="parameter-name">Communication</span>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="score-value">5.0</span>
+                    </div>
+                    
+                    <div class="parameter-item">
+                        <span class="parameter-name">Fairness</span>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="score-value">5.0</span>
+                    </div>
+                    
+                    <div class="parameter-item">
+                        <span class="parameter-name">Clarity</span>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="score-value">5.0</span>
+                    </div>
+                    
+                    <div class="parameter-item">
+                        <span class="parameter-name">Reliability</span>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="score-value">5.0</span>
+                    </div>
+                </div>
+                
+                <div class="reputation-footer">
+                    <span class="feedback-count">Based on 0 provider reviews</span>
+                    <span class="trust-category white-category">Trusted Requester</span>
+                </div>
+            </div>
+            
+            <!-- NEW: Feedback Received from Providers -->
+            <div class="feedback-received-section">
+                <h3>Feedback Received from Providers</h3>
+                <div id="feedbackReceivedList">
+                    <p>Loading feedback...</p>
+                </div>
+            </div>
+            
+            <div class="services-section">
+                <h3>Services Availed</h3>
+                <ul id="availedServicesList" class="services-list">
+                    <li class="loading-state">Loading availed services...</li>
+                </ul>
+            </div>
 
-        <div>
-            <h3>Available Services</h3>
-            <ul id="availableServicesList"></ul>
+            <div class="services-section">
+                <h3>Available Services</h3>
+                <ul id="availableServicesList" class="services-list">
+                    <li class="loading-state">Loading available services...</li>
+                </ul>
+            </div>
         </div>
-
-        <div id="feedback-section">
-            <h3>Provide Feedback</h3>
-            <form id="feedbackForm">
-                <input type="text" id="serviceId" placeholder="Service ID" required />
-                <input type="number" id="rating" placeholder="Rating (1-100)" required />
-                <textarea id="comment" placeholder="Your feedback"></textarea>
-                <button type="submit">Submit Feedback</button>
-            </form>
-        </div>
-        
-        
     </div>
-    <script src="../scripts/requester_dashboard.js"></script>
+
+    <script>
+        // NEW: Display Requester Trust Reputation
+        function displayRequesterTrustReputation(reputationData) {
+            const container = document.querySelector('.trust-reputation-card');
+            if (!container || !reputationData) return;
+            
+            const { overall_score, parameter_scores, category, total_feedback_count } = reputationData;
+            
+            console.log('Displaying requester reputation:', reputationData);
+            
+            // Update overall score
+            const scoreElement = container.querySelector('.score-number');
+            const categoryElement = container.querySelector('.overall-score');
+            const categoryLabel = container.querySelector('.trust-category');
+            const feedbackCount = container.querySelector('.feedback-count');
+            
+            if (scoreElement) scoreElement.textContent = overall_score.toFixed(1);
+            if (categoryElement) categoryElement.setAttribute('data-category', category);
+            if (feedbackCount) feedbackCount.textContent = `Based on ${total_feedback_count || 0} provider reviews`;
+            
+            // Update category label
+            if (categoryLabel) {
+                categoryLabel.className = `trust-category ${category}-category`;
+                const categoryText = {
+                    'white': 'Trusted Requester',
+                    'grey': 'Average Requester',
+                    'black': 'Poor Requester'
+                };
+                categoryLabel.textContent = categoryText[category] || 'New Requester';
+            }
+            
+            // Update parameter scores for requesters
+            const parameters = ['payment', 'communication', 'fairness', 'clarity', 'reliability'];
+            
+            parameters.forEach((param, index) => {
+                const parameterItems = container.querySelectorAll('.parameter-item');
+                if (parameterItems[index] && parameter_scores && parameter_scores[param] !== undefined) {
+                    const scoreBar = parameterItems[index].querySelector('.score-fill');
+                    const scoreValue = parameterItems[index].querySelector('.score-value');
+                    
+                    const score = parameter_scores[param];
+                    const percentage = (score / 5) * 100; // Convert 5-point scale to percentage
+                    
+                    if (scoreBar) scoreBar.style.width = `${percentage}%`;
+                    if (scoreValue) scoreValue.textContent = score.toFixed(1);
+                }
+            });
+        }
+
+        // NEW: Display Feedback Received from Providers
+        function displayFeedbackReceived(feedbackArray) {
+            const container = document.getElementById('feedbackReceivedList');
+            container.innerHTML = '';
+
+            if (!feedbackArray || feedbackArray.length === 0) {
+                container.innerHTML = '<p>No feedback received from providers yet.</p>';
+                return;
+            }
+
+            feedbackArray.forEach(feedback => {
+                const feedbackDiv = document.createElement('div');
+                feedbackDiv.className = 'feedback-item';
+                
+                const feedbackDate = new Date(feedback.created_at).toLocaleDateString();
+                
+                feedbackDiv.innerHTML = `
+                    <div class="feedback-header">
+                        <strong>Provider Feedback</strong>
+                        <span class="feedback-rating">${feedback.rating}/5</span>
+                    </div>
+                    <div class="feedback-parameters">
+                        <div class="param-badge">
+                            <div class="param-name">Payment</div>
+                            <div class="param-value">${feedback.payment}/5</div>
+                        </div>
+                        <div class="param-badge">
+                            <div class="param-name">Communication</div>
+                            <div class="param-value">${feedback.communication}/5</div>
+                        </div>
+                        <div class="param-badge">
+                            <div class="param-name">Fairness</div>
+                            <div class="param-value">${feedback.fairness}/5</div>
+                        </div>
+                        <div class="param-badge">
+                            <div class="param-name">Clarity</div>
+                            <div class="param-value">${feedback.clarity}/5</div>
+                        </div>
+                        <div class="param-badge">
+                            <div class="param-name">Reliability</div>
+                            <div class="param-value">${feedback.reliability}/5</div>
+                        </div>
+                    </div>
+                    ${feedback.comment ? `<p style="font-style: italic; color: #666; margin-top: 10px;">"${feedback.comment}"</p>` : ''}
+                    <p style="font-size: 12px; color: #999; margin-top: 8px;">Received: ${feedbackDate}</p>
+                `;
+                
+                container.appendChild(feedbackDiv);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const userId = localStorage.getItem('userId');
+            const token = localStorage.getItem('userToken');
+            const ownerAddress = localStorage.getItem('userAddress');
+
+            // Check authentication
+            if (!userId || !token) {
+                window.location.href = 'http://127.0.0.1:5500/White_Wash_Attack/frontend/views/login.html';
+                return;
+            }
+
+            // Function to refresh availed services
+            const refreshAvailedServices = async () => {
+                try {
+                    const response = await fetch(`http://127.0.0.1:3001/users/${userId}`, {
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch user data');
+                    }
+                    
+                    const user = await response.json();
+                    const availedServicesList = document.getElementById('availedServicesList');
+                    availedServicesList.innerHTML = '';
+
+                    if (user.services_availed && user.services_availed.length > 0) {
+                        user.services_availed.forEach(service => {
+                            const li = document.createElement('li');
+                            li.className = 'service-item';
+                            li.innerHTML = `
+                                <div class="service-info">
+                                    <div class="service-name">${service.name || 'Unknown Service'}</div>
+                                    <div class="service-description">${service.description || 'No description available'}</div>
+                                </div>
+                                <div class="service-actions">
+                                    <button onclick="submitFeedback('${service._id || service.service_id}', '${service.provider_id}')" class="btn btn-primary">
+                                        Submit Feedback
+                                    </button>
+                                </div>
+                            `;
+                            availedServicesList.appendChild(li);
+                        });
+                    } else {
+                        const li = document.createElement('li');
+                        li.className = 'empty-state';
+                        li.innerHTML = '<div>No services availed yet.</div>';
+                        availedServicesList.appendChild(li);
+                    }
+                    
+                } catch (error) {
+                    console.error('Error fetching availed services:', error);
+                    const availedServicesList = document.getElementById('availedServicesList');
+                    availedServicesList.innerHTML = '<li class="error-state">Error loading availed services</li>';
+                }
+            };
+
+            // Load user information and trust reputation
+            try {
+                const response = await fetch(`http://127.0.0.1:3001/users/${userId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch user data');
+                }
+
+                const user = await response.json();
+                console.log('User data:', user);
+
+                // Display user information
+                const trustScore = user.trust_reputation?.overall_score ?? 100;
+                const banStatus = user.banned_details?.is_banned ? 
+                    `⚠️ BANNED: ${user.banned_details.reason}` : '✅ Active';
+
+                document.getElementById('requester-info').innerHTML = `
+                    <h4>Your Information</h4>
+                    <p><strong>Owner Address:</strong> ${ownerAddress}</p>
+                    <p><strong>Trust Score:</strong> ${trustScore}</p>
+                    <p><strong>Role:</strong> Requester</p>
+                    <p><strong>Status:</strong> ${banStatus}</p>
+                `;
+
+                // NEW: Display requester trust reputation based on provider feedback
+                const providerFeedback = user.feedback_received ? 
+                    user.feedback_received.filter(f => f.feedback_type === 'provider_to_requester') : [];
+                
+                let reputationData;
+                if (providerFeedback.length > 0 && user.trust_reputation) {
+                    reputationData = {
+                        overall_score: user.trust_reputation.overall_score || 100,
+                        parameter_scores: {
+                            payment: user.trust_reputation.parameter_scores?.payment || 5,
+                            communication: user.trust_reputation.parameter_scores?.communication || 5,
+                            fairness: user.trust_reputation.parameter_scores?.fairness || 5,
+                            clarity: user.trust_reputation.parameter_scores?.clarity || 5,
+                            reliability: user.trust_reputation.parameter_scores?.reliability || 5
+                        },
+                        category: user.trust_reputation.category || 'white',
+                        total_feedback_count: providerFeedback.length
+                    };
+                } else {
+                    // New requester defaults
+                    reputationData = {
+                        overall_score: 0,
+                        parameter_scores: {
+                            payment: 0,
+                            communication: 0,
+                            fairness: 0,
+                            clarity: 0,
+                            reliability: 0
+                        },
+                        category: 'white',
+                        total_feedback_count: 0
+                    };
+                }
+
+                displayRequesterTrustReputation(reputationData);
+                
+                // NEW: Display feedback received from providers
+                displayFeedbackReceived(providerFeedback);
+
+                await refreshAvailedServices();
+
+            } catch (error) {
+                console.error('Error fetching user data:', error);
+                document.getElementById('requester-info').innerHTML = `
+                    <div class="error-state">
+                        <p>Error loading user data</p>
+                        <p><strong>Owner Address:</strong> ${ownerAddress}</p>
+                        <p><strong>Trust Score:</strong> 100</p>
+                    </div>
+                `;
+            }
+
+            // Fetch Available Services
+            try {
+                const servicesResponse = await fetch('http://127.0.0.1:3001/services', {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+
+                if (!servicesResponse.ok) {
+                    throw new Error('Failed to fetch services');
+                }
+
+                const services = await servicesResponse.json();
+                console.log('Available services:', services);
+
+                const servicesList = document.getElementById('availableServicesList');
+                servicesList.innerHTML = '';
+
+                if (Array.isArray(services) && services.length > 0) {
+                    services.forEach(service => {
+                        const li = document.createElement('li');
+                        li.className = 'service-item';
+                        li.innerHTML = `
+                            <div class="service-info">
+                                <div class="service-name">${service.name}</div>
+                                <div class="service-description">${service.description}</div>
+                            </div>
+                            <div class="service-actions">
+                                <button onclick="availService('${service._id}')" class="btn btn-success">Avail Service</button>
+                            </div>
+                        `;
+                        servicesList.appendChild(li);
+                    });
+                } else {
+                    const li = document.createElement('li');
+                    li.className = 'empty-state';
+                    li.innerHTML = '<div>No services available at the moment.</div>';
+                    servicesList.appendChild(li);
+                }
+            } catch (error) {
+                console.error('Error fetching services:', error);
+                const servicesList = document.getElementById('availableServicesList');
+                servicesList.innerHTML = '<li class="error-state">Error loading services. Please try again later.</li>';
+            }
+
+            // Global functions
+            window.availService = async (serviceId) => {
+                try {
+                    const availResponse = await fetch(`http://127.0.0.1:3001/users/${userId}/avail-service`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`
+                        },
+                        body: JSON.stringify({ serviceId: serviceId })
+                    });
+
+                    if (availResponse.ok) {
+                        alert('Service availed successfully');
+                        await refreshAvailedServices();
+                    } else {
+                        const errorText = await availResponse.text();
+                        console.error('Error availing service:', errorText);
+                        alert('Error availing service. Please try again.');
+                    }
+                } catch (error) {
+                    console.error('Error availing service:', error);
+                    alert('Error availing service. Please check your connection and try again.');
+                }
+            };
+
+            window.submitFeedback = (serviceId, providerId) => {
+                if (!serviceId || !providerId) {
+                    alert('Missing service or provider information');
+                    return;
+                }
+                
+                const feedbackUrl = `http://127.0.0.1:5500/White_Wash_Attack/frontend/views/feedback.html?serviceId=${encodeURIComponent(serviceId)}&providerId=${encodeURIComponent(providerId)}`;
+                window.location.href = feedbackUrl;
+            };
+
+            // Logout functionality
+            const logoutButton = document.getElementById('logoutButton');
+            if (logoutButton) {
+                logoutButton.addEventListener('click', logout);
+            }
+        });
+
+        const logout = () => {
+            localStorage.removeItem('userToken');
+            localStorage.removeItem('userId');
+            localStorage.removeItem('userAddress');
+            window.location.href = 'http://127.0.0.1:5500/White_Wash_Attack/frontend/views/login.html';
+        };
+    </script>
 </body>
 </html>

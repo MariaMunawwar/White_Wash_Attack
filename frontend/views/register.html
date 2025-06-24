@@ -19,12 +19,14 @@
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
-                <label for="role">Role:</label>
-                <input type="radio" id="requester" name="role" value="requester" checked>
-                <label for="requester">Service Requester</label>
-                <input type="radio" id="provider" name="role" value="provider">
-                <label for="provider">Service Provider</label>
-              </div>
+                <fieldset>
+                    <legend>Role:</legend>
+                    <input type="radio" id="requester" name="role" value="requester" checked>
+                    <label for="requester">Service Requester</label>
+                    <input type="radio" id="provider" name="role" value="provider">
+                    <label for="provider">Service Provider</label>
+                </fieldset>
+            </div>
             <button type="submit">Register</button>
             <p>Already have an account? <a href="login.html">Login here</a></p>
         </form>
