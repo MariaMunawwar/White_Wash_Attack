@@ -1,128 +1,6002 @@
 [
   {
-    "ipAddress": "192.168.10.1",
-    "imei": "166456789042341",
-    "macAddress": "00:55:22:11:23:91",
+    "ipAddress": "192.168.200.1",
+    "imei": "860000000000001",
+    "macAddress": "00:AA:BB:00:01",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.2",
+    "imei": "860000000000002",
+    "macAddress": "00:AA:BB:00:02",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.3",
+    "imei": "860000000000003",
+    "macAddress": "00:AA:BB:00:03",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.4",
+    "imei": "860000000000004",
+    "macAddress": "00:AA:BB:00:04",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.5",
+    "imei": "860000000000005",
+    "macAddress": "00:AA:BB:00:05",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.6",
+    "imei": "860000000000006",
+    "macAddress": "00:AA:BB:00:06",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.7",
+    "imei": "860000000000007",
+    "macAddress": "00:AA:BB:00:07",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.8",
+    "imei": "860000000000008",
+    "macAddress": "00:AA:BB:00:08",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.9",
+    "imei": "860000000000009",
+    "macAddress": "00:AA:BB:00:09",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.10",
+    "imei": "860000000000010",
+    "macAddress": "00:AA:BB:00:0A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.11",
+    "imei": "860000000000011",
+    "macAddress": "00:AA:BB:00:0B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.12",
+    "imei": "860000000000012",
+    "macAddress": "00:AA:BB:00:0C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.13",
+    "imei": "860000000000013",
+    "macAddress": "00:AA:BB:00:0D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.14",
+    "imei": "860000000000014",
+    "macAddress": "00:AA:BB:00:0E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.15",
+    "imei": "860000000000015",
+    "macAddress": "00:AA:BB:00:0F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.16",
+    "imei": "860000000000016",
+    "macAddress": "00:AA:BB:00:10",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.17",
+    "imei": "860000000000017",
+    "macAddress": "00:AA:BB:00:11",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.18",
+    "imei": "860000000000018",
+    "macAddress": "00:AA:BB:00:12",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.19",
+    "imei": "860000000000019",
+    "macAddress": "00:AA:BB:00:13",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.20",
+    "imei": "860000000000020",
+    "macAddress": "00:AA:BB:00:14",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.21",
+    "imei": "860000000000021",
+    "macAddress": "00:AA:BB:00:15",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.22",
+    "imei": "860000000000022",
+    "macAddress": "00:AA:BB:00:16",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.23",
+    "imei": "860000000000023",
+    "macAddress": "00:AA:BB:00:17",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.24",
+    "imei": "860000000000024",
+    "macAddress": "00:AA:BB:00:18",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.25",
+    "imei": "860000000000025",
+    "macAddress": "00:AA:BB:00:19",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.26",
+    "imei": "860000000000026",
+    "macAddress": "00:AA:BB:00:1A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.27",
+    "imei": "860000000000027",
+    "macAddress": "00:AA:BB:00:1B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.28",
+    "imei": "860000000000028",
+    "macAddress": "00:AA:BB:00:1C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.29",
+    "imei": "860000000000029",
+    "macAddress": "00:AA:BB:00:1D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.30",
+    "imei": "860000000000030",
+    "macAddress": "00:AA:BB:00:1E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.31",
+    "imei": "860000000000031",
+    "macAddress": "00:AA:BB:00:1F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.32",
+    "imei": "860000000000032",
+    "macAddress": "00:AA:BB:00:20",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.33",
+    "imei": "860000000000033",
+    "macAddress": "00:AA:BB:00:21",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.34",
+    "imei": "860000000000034",
+    "macAddress": "00:AA:BB:00:22",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.35",
+    "imei": "860000000000035",
+    "macAddress": "00:AA:BB:00:23",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.36",
+    "imei": "860000000000036",
+    "macAddress": "00:AA:BB:00:24",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.37",
+    "imei": "860000000000037",
+    "macAddress": "00:AA:BB:00:25",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.38",
+    "imei": "860000000000038",
+    "macAddress": "00:AA:BB:00:26",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.39",
+    "imei": "860000000000039",
+    "macAddress": "00:AA:BB:00:27",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.40",
+    "imei": "860000000000040",
+    "macAddress": "00:AA:BB:00:28",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.41",
+    "imei": "860000000000041",
+    "macAddress": "00:AA:BB:00:29",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.42",
+    "imei": "860000000000042",
+    "macAddress": "00:AA:BB:00:2A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.43",
+    "imei": "860000000000043",
+    "macAddress": "00:AA:BB:00:2B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.44",
+    "imei": "860000000000044",
+    "macAddress": "00:AA:BB:00:2C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.45",
+    "imei": "860000000000045",
+    "macAddress": "00:AA:BB:00:2D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.46",
+    "imei": "860000000000046",
+    "macAddress": "00:AA:BB:00:2E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.47",
+    "imei": "860000000000047",
+    "macAddress": "00:AA:BB:00:2F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.48",
+    "imei": "860000000000048",
+    "macAddress": "00:AA:BB:00:30",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.49",
+    "imei": "860000000000049",
+    "macAddress": "00:AA:BB:00:31",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.50",
+    "imei": "860000000000050",
+    "macAddress": "00:AA:BB:00:32",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.51",
+    "imei": "860000000000051",
+    "macAddress": "00:AA:BB:00:33",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.52",
+    "imei": "860000000000052",
+    "macAddress": "00:AA:BB:00:34",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.53",
+    "imei": "860000000000053",
+    "macAddress": "00:AA:BB:00:35",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.54",
+    "imei": "860000000000054",
+    "macAddress": "00:AA:BB:00:36",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.55",
+    "imei": "860000000000055",
+    "macAddress": "00:AA:BB:00:37",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.56",
+    "imei": "860000000000056",
+    "macAddress": "00:AA:BB:00:38",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.57",
+    "imei": "860000000000057",
+    "macAddress": "00:AA:BB:00:39",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.58",
+    "imei": "860000000000058",
+    "macAddress": "00:AA:BB:00:3A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.59",
+    "imei": "860000000000059",
+    "macAddress": "00:AA:BB:00:3B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.60",
+    "imei": "860000000000060",
+    "macAddress": "00:AA:BB:00:3C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.61",
+    "imei": "860000000000061",
+    "macAddress": "00:AA:BB:00:3D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.62",
+    "imei": "860000000000062",
+    "macAddress": "00:AA:BB:00:3E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.63",
+    "imei": "860000000000063",
+    "macAddress": "00:AA:BB:00:3F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.64",
+    "imei": "860000000000064",
+    "macAddress": "00:AA:BB:00:40",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.65",
+    "imei": "860000000000065",
+    "macAddress": "00:AA:BB:00:41",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.66",
+    "imei": "860000000000066",
+    "macAddress": "00:AA:BB:00:42",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.67",
+    "imei": "860000000000067",
+    "macAddress": "00:AA:BB:00:43",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.68",
+    "imei": "860000000000068",
+    "macAddress": "00:AA:BB:00:44",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.69",
+    "imei": "860000000000069",
+    "macAddress": "00:AA:BB:00:45",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.70",
+    "imei": "860000000000070",
+    "macAddress": "00:AA:BB:00:46",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.71",
+    "imei": "860000000000071",
+    "macAddress": "00:AA:BB:00:47",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.72",
+    "imei": "860000000000072",
+    "macAddress": "00:AA:BB:00:48",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.73",
+    "imei": "860000000000073",
+    "macAddress": "00:AA:BB:00:49",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.74",
+    "imei": "860000000000074",
+    "macAddress": "00:AA:BB:00:4A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.75",
+    "imei": "860000000000075",
+    "macAddress": "00:AA:BB:00:4B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.76",
+    "imei": "860000000000076",
+    "macAddress": "00:AA:BB:00:4C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.77",
+    "imei": "860000000000077",
+    "macAddress": "00:AA:BB:00:4D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.78",
+    "imei": "860000000000078",
+    "macAddress": "00:AA:BB:00:4E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.79",
+    "imei": "860000000000079",
+    "macAddress": "00:AA:BB:00:4F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.80",
+    "imei": "860000000000080",
+    "macAddress": "00:AA:BB:00:50",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.81",
+    "imei": "860000000000081",
+    "macAddress": "00:AA:BB:00:51",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.82",
+    "imei": "860000000000082",
+    "macAddress": "00:AA:BB:00:52",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.83",
+    "imei": "860000000000083",
+    "macAddress": "00:AA:BB:00:53",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.84",
+    "imei": "860000000000084",
+    "macAddress": "00:AA:BB:00:54",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.85",
+    "imei": "860000000000085",
+    "macAddress": "00:AA:BB:00:55",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.86",
+    "imei": "860000000000086",
+    "macAddress": "00:AA:BB:00:56",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.87",
+    "imei": "860000000000087",
+    "macAddress": "00:AA:BB:00:57",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.88",
+    "imei": "860000000000088",
+    "macAddress": "00:AA:BB:00:58",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.89",
+    "imei": "860000000000089",
+    "macAddress": "00:AA:BB:00:59",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.90",
+    "imei": "860000000000090",
+    "macAddress": "00:AA:BB:00:5A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.91",
+    "imei": "860000000000091",
+    "macAddress": "00:AA:BB:00:5B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.92",
+    "imei": "860000000000092",
+    "macAddress": "00:AA:BB:00:5C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.93",
+    "imei": "860000000000093",
+    "macAddress": "00:AA:BB:00:5D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.94",
+    "imei": "860000000000094",
+    "macAddress": "00:AA:BB:00:5E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.95",
+    "imei": "860000000000095",
+    "macAddress": "00:AA:BB:00:5F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.96",
+    "imei": "860000000000096",
+    "macAddress": "00:AA:BB:00:60",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.97",
+    "imei": "860000000000097",
+    "macAddress": "00:AA:BB:00:61",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.98",
+    "imei": "860000000000098",
+    "macAddress": "00:AA:BB:00:62",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.99",
+    "imei": "860000000000099",
+    "macAddress": "00:AA:BB:00:63",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.100",
+    "imei": "860000000000100",
+    "macAddress": "00:AA:BB:00:64",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.101",
+    "imei": "860000000000101",
+    "macAddress": "00:AA:BB:00:65",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.102",
+    "imei": "860000000000102",
+    "macAddress": "00:AA:BB:00:66",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.103",
+    "imei": "860000000000103",
+    "macAddress": "00:AA:BB:00:67",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.104",
+    "imei": "860000000000104",
+    "macAddress": "00:AA:BB:00:68",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.105",
+    "imei": "860000000000105",
+    "macAddress": "00:AA:BB:00:69",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.106",
+    "imei": "860000000000106",
+    "macAddress": "00:AA:BB:00:6A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.107",
+    "imei": "860000000000107",
+    "macAddress": "00:AA:BB:00:6B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.108",
+    "imei": "860000000000108",
+    "macAddress": "00:AA:BB:00:6C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.109",
+    "imei": "860000000000109",
+    "macAddress": "00:AA:BB:00:6D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.110",
+    "imei": "860000000000110",
+    "macAddress": "00:AA:BB:00:6E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.111",
+    "imei": "860000000000111",
+    "macAddress": "00:AA:BB:00:6F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.112",
+    "imei": "860000000000112",
+    "macAddress": "00:AA:BB:00:70",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.113",
+    "imei": "860000000000113",
+    "macAddress": "00:AA:BB:00:71",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.114",
+    "imei": "860000000000114",
+    "macAddress": "00:AA:BB:00:72",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.115",
+    "imei": "860000000000115",
+    "macAddress": "00:AA:BB:00:73",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.116",
+    "imei": "860000000000116",
+    "macAddress": "00:AA:BB:00:74",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.117",
+    "imei": "860000000000117",
+    "macAddress": "00:AA:BB:00:75",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.118",
+    "imei": "860000000000118",
+    "macAddress": "00:AA:BB:00:76",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.119",
+    "imei": "860000000000119",
+    "macAddress": "00:AA:BB:00:77",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.120",
+    "imei": "860000000000120",
+    "macAddress": "00:AA:BB:00:78",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.121",
+    "imei": "860000000000121",
+    "macAddress": "00:AA:BB:00:79",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.122",
+    "imei": "860000000000122",
+    "macAddress": "00:AA:BB:00:7A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.123",
+    "imei": "860000000000123",
+    "macAddress": "00:AA:BB:00:7B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.124",
+    "imei": "860000000000124",
+    "macAddress": "00:AA:BB:00:7C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.125",
+    "imei": "860000000000125",
+    "macAddress": "00:AA:BB:00:7D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.126",
+    "imei": "860000000000126",
+    "macAddress": "00:AA:BB:00:7E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.127",
+    "imei": "860000000000127",
+    "macAddress": "00:AA:BB:00:7F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.128",
+    "imei": "860000000000128",
+    "macAddress": "00:AA:BB:00:80",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.129",
+    "imei": "860000000000129",
+    "macAddress": "00:AA:BB:00:81",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.130",
+    "imei": "860000000000130",
+    "macAddress": "00:AA:BB:00:82",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.131",
+    "imei": "860000000000131",
+    "macAddress": "00:AA:BB:00:83",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.132",
+    "imei": "860000000000132",
+    "macAddress": "00:AA:BB:00:84",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.133",
+    "imei": "860000000000133",
+    "macAddress": "00:AA:BB:00:85",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.134",
+    "imei": "860000000000134",
+    "macAddress": "00:AA:BB:00:86",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.135",
+    "imei": "860000000000135",
+    "macAddress": "00:AA:BB:00:87",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.136",
+    "imei": "860000000000136",
+    "macAddress": "00:AA:BB:00:88",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.137",
+    "imei": "860000000000137",
+    "macAddress": "00:AA:BB:00:89",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.138",
+    "imei": "860000000000138",
+    "macAddress": "00:AA:BB:00:8A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.139",
+    "imei": "860000000000139",
+    "macAddress": "00:AA:BB:00:8B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.140",
+    "imei": "860000000000140",
+    "macAddress": "00:AA:BB:00:8C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.141",
+    "imei": "860000000000141",
+    "macAddress": "00:AA:BB:00:8D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.142",
+    "imei": "860000000000142",
+    "macAddress": "00:AA:BB:00:8E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.143",
+    "imei": "860000000000143",
+    "macAddress": "00:AA:BB:00:8F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.144",
+    "imei": "860000000000144",
+    "macAddress": "00:AA:BB:00:90",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.145",
+    "imei": "860000000000145",
+    "macAddress": "00:AA:BB:00:91",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.146",
+    "imei": "860000000000146",
+    "macAddress": "00:AA:BB:00:92",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.147",
+    "imei": "860000000000147",
+    "macAddress": "00:AA:BB:00:93",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.148",
+    "imei": "860000000000148",
+    "macAddress": "00:AA:BB:00:94",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.149",
+    "imei": "860000000000149",
+    "macAddress": "00:AA:BB:00:95",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.150",
+    "imei": "860000000000150",
+    "macAddress": "00:AA:BB:00:96",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.151",
+    "imei": "860000000000151",
+    "macAddress": "00:AA:BB:00:97",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.152",
+    "imei": "860000000000152",
+    "macAddress": "00:AA:BB:00:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.153",
+    "imei": "860000000000153",
+    "macAddress": "00:AA:BB:00:99",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.154",
+    "imei": "860000000000154",
+    "macAddress": "00:AA:BB:00:9A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.155",
+    "imei": "860000000000155",
+    "macAddress": "00:AA:BB:00:9B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.156",
+    "imei": "860000000000156",
+    "macAddress": "00:AA:BB:00:9C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.157",
+    "imei": "860000000000157",
+    "macAddress": "00:AA:BB:00:9D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.158",
+    "imei": "860000000000158",
+    "macAddress": "00:AA:BB:00:9E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.159",
+    "imei": "860000000000159",
+    "macAddress": "00:AA:BB:00:9F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.160",
+    "imei": "860000000000160",
+    "macAddress": "00:AA:BB:00:A0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.161",
+    "imei": "860000000000161",
+    "macAddress": "00:AA:BB:00:A1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.162",
+    "imei": "860000000000162",
+    "macAddress": "00:AA:BB:00:A2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.163",
+    "imei": "860000000000163",
+    "macAddress": "00:AA:BB:00:A3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.164",
+    "imei": "860000000000164",
+    "macAddress": "00:AA:BB:00:A4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.165",
+    "imei": "860000000000165",
+    "macAddress": "00:AA:BB:00:A5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.166",
+    "imei": "860000000000166",
+    "macAddress": "00:AA:BB:00:A6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.167",
+    "imei": "860000000000167",
+    "macAddress": "00:AA:BB:00:A7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.168",
+    "imei": "860000000000168",
+    "macAddress": "00:AA:BB:00:A8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.169",
+    "imei": "860000000000169",
+    "macAddress": "00:AA:BB:00:A9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.170",
+    "imei": "860000000000170",
+    "macAddress": "00:AA:BB:00:AA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.171",
+    "imei": "860000000000171",
+    "macAddress": "00:AA:BB:00:AB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.172",
+    "imei": "860000000000172",
+    "macAddress": "00:AA:BB:00:AC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.173",
+    "imei": "860000000000173",
+    "macAddress": "00:AA:BB:00:AD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.174",
+    "imei": "860000000000174",
+    "macAddress": "00:AA:BB:00:AE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.175",
+    "imei": "860000000000175",
+    "macAddress": "00:AA:BB:00:AF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.176",
+    "imei": "860000000000176",
+    "macAddress": "00:AA:BB:00:B0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.177",
+    "imei": "860000000000177",
+    "macAddress": "00:AA:BB:00:B1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.178",
+    "imei": "860000000000178",
+    "macAddress": "00:AA:BB:00:B2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.179",
+    "imei": "860000000000179",
+    "macAddress": "00:AA:BB:00:B3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.180",
+    "imei": "860000000000180",
+    "macAddress": "00:AA:BB:00:B4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.181",
+    "imei": "860000000000181",
+    "macAddress": "00:AA:BB:00:B5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.182",
+    "imei": "860000000000182",
+    "macAddress": "00:AA:BB:00:B6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.183",
+    "imei": "860000000000183",
+    "macAddress": "00:AA:BB:00:B7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.184",
+    "imei": "860000000000184",
+    "macAddress": "00:AA:BB:00:B8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.185",
+    "imei": "860000000000185",
+    "macAddress": "00:AA:BB:00:B9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.186",
+    "imei": "860000000000186",
+    "macAddress": "00:AA:BB:00:BA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.187",
+    "imei": "860000000000187",
+    "macAddress": "00:AA:BB:00:BB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.188",
+    "imei": "860000000000188",
+    "macAddress": "00:AA:BB:00:BC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.189",
+    "imei": "860000000000189",
+    "macAddress": "00:AA:BB:00:BD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.190",
+    "imei": "860000000000190",
+    "macAddress": "00:AA:BB:00:BE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.191",
+    "imei": "860000000000191",
+    "macAddress": "00:AA:BB:00:BF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.192",
+    "imei": "860000000000192",
+    "macAddress": "00:AA:BB:00:C0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.193",
+    "imei": "860000000000193",
+    "macAddress": "00:AA:BB:00:C1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.194",
+    "imei": "860000000000194",
+    "macAddress": "00:AA:BB:00:C2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.195",
+    "imei": "860000000000195",
+    "macAddress": "00:AA:BB:00:C3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.196",
+    "imei": "860000000000196",
+    "macAddress": "00:AA:BB:00:C4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.197",
+    "imei": "860000000000197",
+    "macAddress": "00:AA:BB:00:C5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.198",
+    "imei": "860000000000198",
+    "macAddress": "00:AA:BB:00:C6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.199",
+    "imei": "860000000000199",
+    "macAddress": "00:AA:BB:00:C7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.200",
+    "imei": "860000000000200",
+    "macAddress": "00:AA:BB:00:C8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.201",
+    "imei": "860000000000201",
+    "macAddress": "00:AA:BB:00:C9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.202",
+    "imei": "860000000000202",
+    "macAddress": "00:AA:BB:00:CA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.203",
+    "imei": "860000000000203",
+    "macAddress": "00:AA:BB:00:CB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.204",
+    "imei": "860000000000204",
+    "macAddress": "00:AA:BB:00:CC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.205",
+    "imei": "860000000000205",
+    "macAddress": "00:AA:BB:00:CD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.206",
+    "imei": "860000000000206",
+    "macAddress": "00:AA:BB:00:CE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.207",
+    "imei": "860000000000207",
+    "macAddress": "00:AA:BB:00:CF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.208",
+    "imei": "860000000000208",
+    "macAddress": "00:AA:BB:00:D0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.209",
+    "imei": "860000000000209",
+    "macAddress": "00:AA:BB:00:D1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.210",
+    "imei": "860000000000210",
+    "macAddress": "00:AA:BB:00:D2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.211",
+    "imei": "860000000000211",
+    "macAddress": "00:AA:BB:00:D3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.212",
+    "imei": "860000000000212",
+    "macAddress": "00:AA:BB:00:D4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.213",
+    "imei": "860000000000213",
+    "macAddress": "00:AA:BB:00:D5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.214",
+    "imei": "860000000000214",
+    "macAddress": "00:AA:BB:00:D6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.215",
+    "imei": "860000000000215",
+    "macAddress": "00:AA:BB:00:D7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.216",
+    "imei": "860000000000216",
+    "macAddress": "00:AA:BB:00:D8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.217",
+    "imei": "860000000000217",
+    "macAddress": "00:AA:BB:00:D9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.218",
+    "imei": "860000000000218",
+    "macAddress": "00:AA:BB:00:DA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.219",
+    "imei": "860000000000219",
+    "macAddress": "00:AA:BB:00:DB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.220",
+    "imei": "860000000000220",
+    "macAddress": "00:AA:BB:00:DC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.221",
+    "imei": "860000000000221",
+    "macAddress": "00:AA:BB:00:DD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.222",
+    "imei": "860000000000222",
+    "macAddress": "00:AA:BB:00:DE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.223",
+    "imei": "860000000000223",
+    "macAddress": "00:AA:BB:00:DF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.224",
+    "imei": "860000000000224",
+    "macAddress": "00:AA:BB:00:E0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.225",
+    "imei": "860000000000225",
+    "macAddress": "00:AA:BB:00:E1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.226",
+    "imei": "860000000000226",
+    "macAddress": "00:AA:BB:00:E2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.227",
+    "imei": "860000000000227",
+    "macAddress": "00:AA:BB:00:E3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.228",
+    "imei": "860000000000228",
+    "macAddress": "00:AA:BB:00:E4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.229",
+    "imei": "860000000000229",
+    "macAddress": "00:AA:BB:00:E5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.230",
+    "imei": "860000000000230",
+    "macAddress": "00:AA:BB:00:E6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.231",
+    "imei": "860000000000231",
+    "macAddress": "00:AA:BB:00:E7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.232",
+    "imei": "860000000000232",
+    "macAddress": "00:AA:BB:00:E8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.233",
+    "imei": "860000000000233",
+    "macAddress": "00:AA:BB:00:E9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.234",
+    "imei": "860000000000234",
+    "macAddress": "00:AA:BB:00:EA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.235",
+    "imei": "860000000000235",
+    "macAddress": "00:AA:BB:00:EB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.236",
+    "imei": "860000000000236",
+    "macAddress": "00:AA:BB:00:EC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.237",
+    "imei": "860000000000237",
+    "macAddress": "00:AA:BB:00:ED",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.238",
+    "imei": "860000000000238",
+    "macAddress": "00:AA:BB:00:EE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.239",
+    "imei": "860000000000239",
+    "macAddress": "00:AA:BB:00:EF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.240",
+    "imei": "860000000000240",
+    "macAddress": "00:AA:BB:00:F0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.241",
+    "imei": "860000000000241",
+    "macAddress": "00:AA:BB:00:F1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.242",
+    "imei": "860000000000242",
+    "macAddress": "00:AA:BB:00:F2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.243",
+    "imei": "860000000000243",
+    "macAddress": "00:AA:BB:00:F3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.244",
+    "imei": "860000000000244",
+    "macAddress": "00:AA:BB:00:F4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.245",
+    "imei": "860000000000245",
+    "macAddress": "00:AA:BB:00:F5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.246",
+    "imei": "860000000000246",
+    "macAddress": "00:AA:BB:00:F6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.247",
+    "imei": "860000000000247",
+    "macAddress": "00:AA:BB:00:F7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.248",
+    "imei": "860000000000248",
+    "macAddress": "00:AA:BB:00:F8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.249",
+    "imei": "860000000000249",
+    "macAddress": "00:AA:BB:00:F9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.250",
+    "imei": "860000000000250",
+    "macAddress": "00:AA:BB:00:FA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.251",
+    "imei": "860000000000251",
+    "macAddress": "00:AA:BB:00:FB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.252",
+    "imei": "860000000000252",
+    "macAddress": "00:AA:BB:00:FC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.253",
+    "imei": "860000000000253",
+    "macAddress": "00:AA:BB:00:FD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.200.254",
+    "imei": "860000000000254",
+    "macAddress": "00:AA:BB:00:FE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.0",
+    "imei": "860000000000255",
+    "macAddress": "00:AA:BB:00:FF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.1",
+    "imei": "860000000000256",
+    "macAddress": "00:AA:BB:01:00",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.2",
+    "imei": "860000000000257",
+    "macAddress": "00:AA:BB:01:01",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.3",
+    "imei": "860000000000258",
+    "macAddress": "00:AA:BB:01:02",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.4",
+    "imei": "860000000000259",
+    "macAddress": "00:AA:BB:01:03",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.5",
+    "imei": "860000000000260",
+    "macAddress": "00:AA:BB:01:04",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.6",
+    "imei": "860000000000261",
+    "macAddress": "00:AA:BB:01:05",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.7",
+    "imei": "860000000000262",
+    "macAddress": "00:AA:BB:01:06",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.8",
+    "imei": "860000000000263",
+    "macAddress": "00:AA:BB:01:07",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.9",
+    "imei": "860000000000264",
+    "macAddress": "00:AA:BB:01:08",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.10",
+    "imei": "860000000000265",
+    "macAddress": "00:AA:BB:01:09",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.11",
+    "imei": "860000000000266",
+    "macAddress": "00:AA:BB:01:0A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.12",
+    "imei": "860000000000267",
+    "macAddress": "00:AA:BB:01:0B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.13",
+    "imei": "860000000000268",
+    "macAddress": "00:AA:BB:01:0C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.14",
+    "imei": "860000000000269",
+    "macAddress": "00:AA:BB:01:0D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.15",
+    "imei": "860000000000270",
+    "macAddress": "00:AA:BB:01:0E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.16",
+    "imei": "860000000000271",
+    "macAddress": "00:AA:BB:01:0F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.17",
+    "imei": "860000000000272",
+    "macAddress": "00:AA:BB:01:10",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.18",
+    "imei": "860000000000273",
+    "macAddress": "00:AA:BB:01:11",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.19",
+    "imei": "860000000000274",
+    "macAddress": "00:AA:BB:01:12",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.20",
+    "imei": "860000000000275",
+    "macAddress": "00:AA:BB:01:13",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.21",
+    "imei": "860000000000276",
+    "macAddress": "00:AA:BB:01:14",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.22",
+    "imei": "860000000000277",
+    "macAddress": "00:AA:BB:01:15",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.23",
+    "imei": "860000000000278",
+    "macAddress": "00:AA:BB:01:16",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.24",
+    "imei": "860000000000279",
+    "macAddress": "00:AA:BB:01:17",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.25",
+    "imei": "860000000000280",
+    "macAddress": "00:AA:BB:01:18",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.26",
+    "imei": "860000000000281",
+    "macAddress": "00:AA:BB:01:19",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.27",
+    "imei": "860000000000282",
+    "macAddress": "00:AA:BB:01:1A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.28",
+    "imei": "860000000000283",
+    "macAddress": "00:AA:BB:01:1B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.29",
+    "imei": "860000000000284",
+    "macAddress": "00:AA:BB:01:1C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.30",
+    "imei": "860000000000285",
+    "macAddress": "00:AA:BB:01:1D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.31",
+    "imei": "860000000000286",
+    "macAddress": "00:AA:BB:01:1E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.32",
+    "imei": "860000000000287",
+    "macAddress": "00:AA:BB:01:1F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.33",
+    "imei": "860000000000288",
+    "macAddress": "00:AA:BB:01:20",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.34",
+    "imei": "860000000000289",
+    "macAddress": "00:AA:BB:01:21",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.35",
+    "imei": "860000000000290",
+    "macAddress": "00:AA:BB:01:22",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.36",
+    "imei": "860000000000291",
+    "macAddress": "00:AA:BB:01:23",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.37",
+    "imei": "860000000000292",
+    "macAddress": "00:AA:BB:01:24",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.38",
+    "imei": "860000000000293",
+    "macAddress": "00:AA:BB:01:25",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.39",
+    "imei": "860000000000294",
+    "macAddress": "00:AA:BB:01:26",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.40",
+    "imei": "860000000000295",
+    "macAddress": "00:AA:BB:01:27",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.41",
+    "imei": "860000000000296",
+    "macAddress": "00:AA:BB:01:28",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.42",
+    "imei": "860000000000297",
+    "macAddress": "00:AA:BB:01:29",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.43",
+    "imei": "860000000000298",
+    "macAddress": "00:AA:BB:01:2A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.44",
+    "imei": "860000000000299",
+    "macAddress": "00:AA:BB:01:2B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.45",
+    "imei": "860000000000300",
+    "macAddress": "00:AA:BB:01:2C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.46",
+    "imei": "860000000000301",
+    "macAddress": "00:AA:BB:01:2D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.47",
+    "imei": "860000000000302",
+    "macAddress": "00:AA:BB:01:2E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.48",
+    "imei": "860000000000303",
+    "macAddress": "00:AA:BB:01:2F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.49",
+    "imei": "860000000000304",
+    "macAddress": "00:AA:BB:01:30",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.50",
+    "imei": "860000000000305",
+    "macAddress": "00:AA:BB:01:31",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.51",
+    "imei": "860000000000306",
+    "macAddress": "00:AA:BB:01:32",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.52",
+    "imei": "860000000000307",
+    "macAddress": "00:AA:BB:01:33",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.53",
+    "imei": "860000000000308",
+    "macAddress": "00:AA:BB:01:34",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.54",
+    "imei": "860000000000309",
+    "macAddress": "00:AA:BB:01:35",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.55",
+    "imei": "860000000000310",
+    "macAddress": "00:AA:BB:01:36",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.56",
+    "imei": "860000000000311",
+    "macAddress": "00:AA:BB:01:37",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.57",
+    "imei": "860000000000312",
+    "macAddress": "00:AA:BB:01:38",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.58",
+    "imei": "860000000000313",
+    "macAddress": "00:AA:BB:01:39",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.59",
+    "imei": "860000000000314",
+    "macAddress": "00:AA:BB:01:3A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.60",
+    "imei": "860000000000315",
+    "macAddress": "00:AA:BB:01:3B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.61",
+    "imei": "860000000000316",
+    "macAddress": "00:AA:BB:01:3C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.62",
+    "imei": "860000000000317",
+    "macAddress": "00:AA:BB:01:3D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.63",
+    "imei": "860000000000318",
+    "macAddress": "00:AA:BB:01:3E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.64",
+    "imei": "860000000000319",
+    "macAddress": "00:AA:BB:01:3F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.65",
+    "imei": "860000000000320",
+    "macAddress": "00:AA:BB:01:40",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.66",
+    "imei": "860000000000321",
+    "macAddress": "00:AA:BB:01:41",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.67",
+    "imei": "860000000000322",
+    "macAddress": "00:AA:BB:01:42",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.68",
+    "imei": "860000000000323",
+    "macAddress": "00:AA:BB:01:43",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.69",
+    "imei": "860000000000324",
+    "macAddress": "00:AA:BB:01:44",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.70",
+    "imei": "860000000000325",
+    "macAddress": "00:AA:BB:01:45",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.71",
+    "imei": "860000000000326",
+    "macAddress": "00:AA:BB:01:46",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.72",
+    "imei": "860000000000327",
+    "macAddress": "00:AA:BB:01:47",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.73",
+    "imei": "860000000000328",
+    "macAddress": "00:AA:BB:01:48",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.74",
+    "imei": "860000000000329",
+    "macAddress": "00:AA:BB:01:49",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.75",
+    "imei": "860000000000330",
+    "macAddress": "00:AA:BB:01:4A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.76",
+    "imei": "860000000000331",
+    "macAddress": "00:AA:BB:01:4B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.77",
+    "imei": "860000000000332",
+    "macAddress": "00:AA:BB:01:4C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.78",
+    "imei": "860000000000333",
+    "macAddress": "00:AA:BB:01:4D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.79",
+    "imei": "860000000000334",
+    "macAddress": "00:AA:BB:01:4E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.80",
+    "imei": "860000000000335",
+    "macAddress": "00:AA:BB:01:4F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.81",
+    "imei": "860000000000336",
+    "macAddress": "00:AA:BB:01:50",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.82",
+    "imei": "860000000000337",
+    "macAddress": "00:AA:BB:01:51",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.83",
+    "imei": "860000000000338",
+    "macAddress": "00:AA:BB:01:52",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.84",
+    "imei": "860000000000339",
+    "macAddress": "00:AA:BB:01:53",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.85",
+    "imei": "860000000000340",
+    "macAddress": "00:AA:BB:01:54",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.86",
+    "imei": "860000000000341",
+    "macAddress": "00:AA:BB:01:55",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.87",
+    "imei": "860000000000342",
+    "macAddress": "00:AA:BB:01:56",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.88",
+    "imei": "860000000000343",
+    "macAddress": "00:AA:BB:01:57",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.89",
+    "imei": "860000000000344",
+    "macAddress": "00:AA:BB:01:58",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.90",
+    "imei": "860000000000345",
+    "macAddress": "00:AA:BB:01:59",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.91",
+    "imei": "860000000000346",
+    "macAddress": "00:AA:BB:01:5A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.92",
+    "imei": "860000000000347",
+    "macAddress": "00:AA:BB:01:5B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.93",
+    "imei": "860000000000348",
+    "macAddress": "00:AA:BB:01:5C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.94",
+    "imei": "860000000000349",
+    "macAddress": "00:AA:BB:01:5D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.95",
+    "imei": "860000000000350",
+    "macAddress": "00:AA:BB:01:5E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.96",
+    "imei": "860000000000351",
+    "macAddress": "00:AA:BB:01:5F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.97",
+    "imei": "860000000000352",
+    "macAddress": "00:AA:BB:01:60",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.98",
+    "imei": "860000000000353",
+    "macAddress": "00:AA:BB:01:61",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.99",
+    "imei": "860000000000354",
+    "macAddress": "00:AA:BB:01:62",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.100",
+    "imei": "860000000000355",
+    "macAddress": "00:AA:BB:01:63",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.101",
+    "imei": "860000000000356",
+    "macAddress": "00:AA:BB:01:64",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.102",
+    "imei": "860000000000357",
+    "macAddress": "00:AA:BB:01:65",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.103",
+    "imei": "860000000000358",
+    "macAddress": "00:AA:BB:01:66",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.104",
+    "imei": "860000000000359",
+    "macAddress": "00:AA:BB:01:67",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.105",
+    "imei": "860000000000360",
+    "macAddress": "00:AA:BB:01:68",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.106",
+    "imei": "860000000000361",
+    "macAddress": "00:AA:BB:01:69",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.107",
+    "imei": "860000000000362",
+    "macAddress": "00:AA:BB:01:6A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.108",
+    "imei": "860000000000363",
+    "macAddress": "00:AA:BB:01:6B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.109",
+    "imei": "860000000000364",
+    "macAddress": "00:AA:BB:01:6C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.110",
+    "imei": "860000000000365",
+    "macAddress": "00:AA:BB:01:6D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.111",
+    "imei": "860000000000366",
+    "macAddress": "00:AA:BB:01:6E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.112",
+    "imei": "860000000000367",
+    "macAddress": "00:AA:BB:01:6F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.113",
+    "imei": "860000000000368",
+    "macAddress": "00:AA:BB:01:70",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.114",
+    "imei": "860000000000369",
+    "macAddress": "00:AA:BB:01:71",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.115",
+    "imei": "860000000000370",
+    "macAddress": "00:AA:BB:01:72",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.116",
+    "imei": "860000000000371",
+    "macAddress": "00:AA:BB:01:73",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.117",
+    "imei": "860000000000372",
+    "macAddress": "00:AA:BB:01:74",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.118",
+    "imei": "860000000000373",
+    "macAddress": "00:AA:BB:01:75",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.119",
+    "imei": "860000000000374",
+    "macAddress": "00:AA:BB:01:76",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.120",
+    "imei": "860000000000375",
+    "macAddress": "00:AA:BB:01:77",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.121",
+    "imei": "860000000000376",
+    "macAddress": "00:AA:BB:01:78",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.122",
+    "imei": "860000000000377",
+    "macAddress": "00:AA:BB:01:79",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.123",
+    "imei": "860000000000378",
+    "macAddress": "00:AA:BB:01:7A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.124",
+    "imei": "860000000000379",
+    "macAddress": "00:AA:BB:01:7B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.125",
+    "imei": "860000000000380",
+    "macAddress": "00:AA:BB:01:7C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.126",
+    "imei": "860000000000381",
+    "macAddress": "00:AA:BB:01:7D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.127",
+    "imei": "860000000000382",
+    "macAddress": "00:AA:BB:01:7E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.128",
+    "imei": "860000000000383",
+    "macAddress": "00:AA:BB:01:7F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.129",
+    "imei": "860000000000384",
+    "macAddress": "00:AA:BB:01:80",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.130",
+    "imei": "860000000000385",
+    "macAddress": "00:AA:BB:01:81",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.131",
+    "imei": "860000000000386",
+    "macAddress": "00:AA:BB:01:82",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.132",
+    "imei": "860000000000387",
+    "macAddress": "00:AA:BB:01:83",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.133",
+    "imei": "860000000000388",
+    "macAddress": "00:AA:BB:01:84",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.134",
+    "imei": "860000000000389",
+    "macAddress": "00:AA:BB:01:85",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.135",
+    "imei": "860000000000390",
+    "macAddress": "00:AA:BB:01:86",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.136",
+    "imei": "860000000000391",
+    "macAddress": "00:AA:BB:01:87",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.137",
+    "imei": "860000000000392",
+    "macAddress": "00:AA:BB:01:88",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.138",
+    "imei": "860000000000393",
+    "macAddress": "00:AA:BB:01:89",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.139",
+    "imei": "860000000000394",
+    "macAddress": "00:AA:BB:01:8A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.140",
+    "imei": "860000000000395",
+    "macAddress": "00:AA:BB:01:8B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.141",
+    "imei": "860000000000396",
+    "macAddress": "00:AA:BB:01:8C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.142",
+    "imei": "860000000000397",
+    "macAddress": "00:AA:BB:01:8D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.143",
+    "imei": "860000000000398",
+    "macAddress": "00:AA:BB:01:8E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.144",
+    "imei": "860000000000399",
+    "macAddress": "00:AA:BB:01:8F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.145",
+    "imei": "860000000000400",
+    "macAddress": "00:AA:BB:01:90",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.146",
+    "imei": "860000000000401",
+    "macAddress": "00:AA:BB:01:91",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.147",
+    "imei": "860000000000402",
+    "macAddress": "00:AA:BB:01:92",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.148",
+    "imei": "860000000000403",
+    "macAddress": "00:AA:BB:01:93",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.149",
+    "imei": "860000000000404",
+    "macAddress": "00:AA:BB:01:94",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.150",
+    "imei": "860000000000405",
+    "macAddress": "00:AA:BB:01:95",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.151",
+    "imei": "860000000000406",
+    "macAddress": "00:AA:BB:01:96",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.152",
+    "imei": "860000000000407",
+    "macAddress": "00:AA:BB:01:97",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.153",
+    "imei": "860000000000408",
+    "macAddress": "00:AA:BB:01:98",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.154",
+    "imei": "860000000000409",
+    "macAddress": "00:AA:BB:01:99",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.155",
+    "imei": "860000000000410",
+    "macAddress": "00:AA:BB:01:9A",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.156",
+    "imei": "860000000000411",
+    "macAddress": "00:AA:BB:01:9B",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.157",
+    "imei": "860000000000412",
+    "macAddress": "00:AA:BB:01:9C",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.158",
+    "imei": "860000000000413",
+    "macAddress": "00:AA:BB:01:9D",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.159",
+    "imei": "860000000000414",
+    "macAddress": "00:AA:BB:01:9E",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.160",
+    "imei": "860000000000415",
+    "macAddress": "00:AA:BB:01:9F",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.161",
+    "imei": "860000000000416",
+    "macAddress": "00:AA:BB:01:A0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.162",
+    "imei": "860000000000417",
+    "macAddress": "00:AA:BB:01:A1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.163",
+    "imei": "860000000000418",
+    "macAddress": "00:AA:BB:01:A2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.164",
+    "imei": "860000000000419",
+    "macAddress": "00:AA:BB:01:A3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.165",
+    "imei": "860000000000420",
+    "macAddress": "00:AA:BB:01:A4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.166",
+    "imei": "860000000000421",
+    "macAddress": "00:AA:BB:01:A5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.167",
+    "imei": "860000000000422",
+    "macAddress": "00:AA:BB:01:A6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.168",
+    "imei": "860000000000423",
+    "macAddress": "00:AA:BB:01:A7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.169",
+    "imei": "860000000000424",
+    "macAddress": "00:AA:BB:01:A8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.170",
+    "imei": "860000000000425",
+    "macAddress": "00:AA:BB:01:A9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.171",
+    "imei": "860000000000426",
+    "macAddress": "00:AA:BB:01:AA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.172",
+    "imei": "860000000000427",
+    "macAddress": "00:AA:BB:01:AB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.173",
+    "imei": "860000000000428",
+    "macAddress": "00:AA:BB:01:AC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.174",
+    "imei": "860000000000429",
+    "macAddress": "00:AA:BB:01:AD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.175",
+    "imei": "860000000000430",
+    "macAddress": "00:AA:BB:01:AE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.176",
+    "imei": "860000000000431",
+    "macAddress": "00:AA:BB:01:AF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.177",
+    "imei": "860000000000432",
+    "macAddress": "00:AA:BB:01:B0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.178",
+    "imei": "860000000000433",
+    "macAddress": "00:AA:BB:01:B1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.179",
+    "imei": "860000000000434",
+    "macAddress": "00:AA:BB:01:B2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.180",
+    "imei": "860000000000435",
+    "macAddress": "00:AA:BB:01:B3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.181",
+    "imei": "860000000000436",
+    "macAddress": "00:AA:BB:01:B4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.182",
+    "imei": "860000000000437",
+    "macAddress": "00:AA:BB:01:B5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.183",
+    "imei": "860000000000438",
+    "macAddress": "00:AA:BB:01:B6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.184",
+    "imei": "860000000000439",
+    "macAddress": "00:AA:BB:01:B7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.185",
+    "imei": "860000000000440",
+    "macAddress": "00:AA:BB:01:B8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.186",
+    "imei": "860000000000441",
+    "macAddress": "00:AA:BB:01:B9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.187",
+    "imei": "860000000000442",
+    "macAddress": "00:AA:BB:01:BA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.188",
+    "imei": "860000000000443",
+    "macAddress": "00:AA:BB:01:BB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.189",
+    "imei": "860000000000444",
+    "macAddress": "00:AA:BB:01:BC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.190",
+    "imei": "860000000000445",
+    "macAddress": "00:AA:BB:01:BD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.191",
+    "imei": "860000000000446",
+    "macAddress": "00:AA:BB:01:BE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.192",
+    "imei": "860000000000447",
+    "macAddress": "00:AA:BB:01:BF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.193",
+    "imei": "860000000000448",
+    "macAddress": "00:AA:BB:01:C0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.194",
+    "imei": "860000000000449",
+    "macAddress": "00:AA:BB:01:C1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.195",
+    "imei": "860000000000450",
+    "macAddress": "00:AA:BB:01:C2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.196",
+    "imei": "860000000000451",
+    "macAddress": "00:AA:BB:01:C3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.197",
+    "imei": "860000000000452",
+    "macAddress": "00:AA:BB:01:C4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.198",
+    "imei": "860000000000453",
+    "macAddress": "00:AA:BB:01:C5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.199",
+    "imei": "860000000000454",
+    "macAddress": "00:AA:BB:01:C6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.200",
+    "imei": "860000000000455",
+    "macAddress": "00:AA:BB:01:C7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.201",
+    "imei": "860000000000456",
+    "macAddress": "00:AA:BB:01:C8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.202",
+    "imei": "860000000000457",
+    "macAddress": "00:AA:BB:01:C9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.203",
+    "imei": "860000000000458",
+    "macAddress": "00:AA:BB:01:CA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.204",
+    "imei": "860000000000459",
+    "macAddress": "00:AA:BB:01:CB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.205",
+    "imei": "860000000000460",
+    "macAddress": "00:AA:BB:01:CC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.206",
+    "imei": "860000000000461",
+    "macAddress": "00:AA:BB:01:CD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.207",
+    "imei": "860000000000462",
+    "macAddress": "00:AA:BB:01:CE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.208",
+    "imei": "860000000000463",
+    "macAddress": "00:AA:BB:01:CF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.209",
+    "imei": "860000000000464",
+    "macAddress": "00:AA:BB:01:D0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.210",
+    "imei": "860000000000465",
+    "macAddress": "00:AA:BB:01:D1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.211",
+    "imei": "860000000000466",
+    "macAddress": "00:AA:BB:01:D2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.212",
+    "imei": "860000000000467",
+    "macAddress": "00:AA:BB:01:D3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.213",
+    "imei": "860000000000468",
+    "macAddress": "00:AA:BB:01:D4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.214",
+    "imei": "860000000000469",
+    "macAddress": "00:AA:BB:01:D5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.215",
+    "imei": "860000000000470",
+    "macAddress": "00:AA:BB:01:D6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.216",
+    "imei": "860000000000471",
+    "macAddress": "00:AA:BB:01:D7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.217",
+    "imei": "860000000000472",
+    "macAddress": "00:AA:BB:01:D8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.218",
+    "imei": "860000000000473",
+    "macAddress": "00:AA:BB:01:D9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.219",
+    "imei": "860000000000474",
+    "macAddress": "00:AA:BB:01:DA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.220",
+    "imei": "860000000000475",
+    "macAddress": "00:AA:BB:01:DB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.221",
+    "imei": "860000000000476",
+    "macAddress": "00:AA:BB:01:DC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.222",
+    "imei": "860000000000477",
+    "macAddress": "00:AA:BB:01:DD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.223",
+    "imei": "860000000000478",
+    "macAddress": "00:AA:BB:01:DE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.224",
+    "imei": "860000000000479",
+    "macAddress": "00:AA:BB:01:DF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.225",
+    "imei": "860000000000480",
+    "macAddress": "00:AA:BB:01:E0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.226",
+    "imei": "860000000000481",
+    "macAddress": "00:AA:BB:01:E1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.227",
+    "imei": "860000000000482",
+    "macAddress": "00:AA:BB:01:E2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.228",
+    "imei": "860000000000483",
+    "macAddress": "00:AA:BB:01:E3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.229",
+    "imei": "860000000000484",
+    "macAddress": "00:AA:BB:01:E4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.230",
+    "imei": "860000000000485",
+    "macAddress": "00:AA:BB:01:E5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.231",
+    "imei": "860000000000486",
+    "macAddress": "00:AA:BB:01:E6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.232",
+    "imei": "860000000000487",
+    "macAddress": "00:AA:BB:01:E7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.233",
+    "imei": "860000000000488",
+    "macAddress": "00:AA:BB:01:E8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.234",
+    "imei": "860000000000489",
+    "macAddress": "00:AA:BB:01:E9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.235",
+    "imei": "860000000000490",
+    "macAddress": "00:AA:BB:01:EA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.236",
+    "imei": "860000000000491",
+    "macAddress": "00:AA:BB:01:EB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.237",
+    "imei": "860000000000492",
+    "macAddress": "00:AA:BB:01:EC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.238",
+    "imei": "860000000000493",
+    "macAddress": "00:AA:BB:01:ED",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.239",
+    "imei": "860000000000494",
+    "macAddress": "00:AA:BB:01:EE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.240",
+    "imei": "860000000000495",
+    "macAddress": "00:AA:BB:01:EF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.241",
+    "imei": "860000000000496",
+    "macAddress": "00:AA:BB:01:F0",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.242",
+    "imei": "860000000000497",
+    "macAddress": "00:AA:BB:01:F1",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.243",
+    "imei": "860000000000498",
+    "macAddress": "00:AA:BB:01:F2",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.244",
+    "imei": "860000000000499",
+    "macAddress": "00:AA:BB:01:F3",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.245",
+    "imei": "860000000000500",
+    "macAddress": "00:AA:BB:01:F4",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.246",
+    "imei": "860000000000501",
+    "macAddress": "00:AA:BB:01:F5",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.247",
+    "imei": "860000000000502",
+    "macAddress": "00:AA:BB:01:F6",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.248",
+    "imei": "860000000000503",
+    "macAddress": "00:AA:BB:01:F7",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.249",
+    "imei": "860000000000504",
+    "macAddress": "00:AA:BB:01:F8",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.250",
+    "imei": "860000000000505",
+    "macAddress": "00:AA:BB:01:F9",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.251",
+    "imei": "860000000000506",
+    "macAddress": "00:AA:BB:01:FA",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.252",
+    "imei": "860000000000507",
+    "macAddress": "00:AA:BB:01:FB",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.253",
+    "imei": "860000000000508",
+    "macAddress": "00:AA:BB:01:FC",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.201.254",
+    "imei": "860000000000509",
+    "macAddress": "00:AA:BB:01:FD",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.202.0",
+    "imei": "860000000000510",
+    "macAddress": "00:AA:BB:01:FE",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.202.1",
+    "imei": "860000000000511",
+    "macAddress": "00:AA:BB:01:FF",
+    "assigned": true
+  },
+  {
+    "ipAddress": "192.168.202.2",
+    "imei": "860000000000512",
+    "macAddress": "00:AA:BB:02:00",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.2",
-    "imei": "167456789042342",
-    "macAddress": "00:56:22:11:23:92",
+    "ipAddress": "192.168.202.3",
+    "imei": "860000000000513",
+    "macAddress": "00:AA:BB:02:01",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.3",
-    "imei": "168456789042343",
-    "macAddress": "00:57:22:11:23:93",
+    "ipAddress": "192.168.202.4",
+    "imei": "860000000000514",
+    "macAddress": "00:AA:BB:02:02",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.4",
-    "imei": "169456789042343",
-    "macAddress": "00:58:22:11:23:94",
+    "ipAddress": "192.168.202.5",
+    "imei": "860000000000515",
+    "macAddress": "00:AA:BB:02:03",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.5",
-    "imei": "170456789042343",
-    "macAddress": "00:59:22:11:23:95",
+    "ipAddress": "192.168.202.6",
+    "imei": "860000000000516",
+    "macAddress": "00:AA:BB:02:04",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.6",
-    "imei": "171456789042343",
-    "macAddress": "00:60:22:11:23:96",
+    "ipAddress": "192.168.202.7",
+    "imei": "860000000000517",
+    "macAddress": "00:AA:BB:02:05",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.7",
-    "imei": "172456789042343",
-    "macAddress": "00:61:22:11:23:97",
+    "ipAddress": "192.168.202.8",
+    "imei": "860000000000518",
+    "macAddress": "00:AA:BB:02:06",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.8",
-    "imei": "173456789042343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.9",
+    "imei": "860000000000519",
+    "macAddress": "00:AA:BB:02:07",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "174456789042343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.10",
+    "imei": "860000000000520",
+    "macAddress": "00:AA:BB:02:08",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "175456789042343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.11",
+    "imei": "860000000000521",
+    "macAddress": "00:AA:BB:02:09",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "176456789042343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.12",
+    "imei": "860000000000522",
+    "macAddress": "00:AA:BB:02:0A",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "177456789042343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.13",
+    "imei": "860000000000523",
+    "macAddress": "00:AA:BB:02:0B",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "177456789242343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.14",
+    "imei": "860000000000524",
+    "macAddress": "00:AA:BB:02:0C",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "177456789442343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.15",
+    "imei": "860000000000525",
+    "macAddress": "00:AA:BB:02:0D",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "277456789442343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.16",
+    "imei": "860000000000526",
+    "macAddress": "00:AA:BB:02:0E",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.9",
-    "imei": "777456789442343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.17",
+    "imei": "860000000000527",
+    "macAddress": "00:AA:BB:02:0F",
     "assigned": false
   },
   {
-    "ipAddress": "192.168.10.1",
-    "imei": "797456789442343",
-    "macAddress": "00:61:22:11:23:98",
+    "ipAddress": "192.168.202.18",
+    "imei": "860000000000528",
+    "macAddress": "00:AA:BB:02:10",
     "assigned": false
   },
   {
-    "ipAddress": "194.118.11.9",
-    "imei": "237456789342344",
-    "macAddress": "00:61:22:61:23:98",
+    "ipAddress": "192.168.202.19",
+    "imei": "860000000000529",
+    "macAddress": "00:AA:BB:02:11",
     "assigned": false
   },
   {
-    "ipAddress": "194.170.10.3",
-    "imei": "812456789442343",
-    "macAddress": "00:61:22:66:23:98",
+    "ipAddress": "192.168.202.20",
+    "imei": "860000000000530",
+    "macAddress": "00:AA:BB:02:12",
     "assigned": false
   },
   {
-    "ipAddress": "192.147.21.67",
-    "imei": "343433422244312",
-    "macAddress": "00:15:92:21:53:99",
+    "ipAddress": "192.168.202.21",
+    "imei": "860000000000531",
+    "macAddress": "00:AA:BB:02:13",
     "assigned": false
   },
   {
-    "ipAddress": "178.34.128.12",
-    "imei": "521344098743211",
-    "macAddress": "00:47:16:89:31:22",
+    "ipAddress": "192.168.202.22",
+    "imei": "860000000000532",
+    "macAddress": "00:AA:BB:02:14",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.23",
+    "imei": "860000000000533",
+    "macAddress": "00:AA:BB:02:15",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.24",
+    "imei": "860000000000534",
+    "macAddress": "00:AA:BB:02:16",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.25",
+    "imei": "860000000000535",
+    "macAddress": "00:AA:BB:02:17",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.26",
+    "imei": "860000000000536",
+    "macAddress": "00:AA:BB:02:18",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.27",
+    "imei": "860000000000537",
+    "macAddress": "00:AA:BB:02:19",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.28",
+    "imei": "860000000000538",
+    "macAddress": "00:AA:BB:02:1A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.29",
+    "imei": "860000000000539",
+    "macAddress": "00:AA:BB:02:1B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.30",
+    "imei": "860000000000540",
+    "macAddress": "00:AA:BB:02:1C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.31",
+    "imei": "860000000000541",
+    "macAddress": "00:AA:BB:02:1D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.32",
+    "imei": "860000000000542",
+    "macAddress": "00:AA:BB:02:1E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.33",
+    "imei": "860000000000543",
+    "macAddress": "00:AA:BB:02:1F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.34",
+    "imei": "860000000000544",
+    "macAddress": "00:AA:BB:02:20",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.35",
+    "imei": "860000000000545",
+    "macAddress": "00:AA:BB:02:21",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.36",
+    "imei": "860000000000546",
+    "macAddress": "00:AA:BB:02:22",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.37",
+    "imei": "860000000000547",
+    "macAddress": "00:AA:BB:02:23",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.38",
+    "imei": "860000000000548",
+    "macAddress": "00:AA:BB:02:24",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.39",
+    "imei": "860000000000549",
+    "macAddress": "00:AA:BB:02:25",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.40",
+    "imei": "860000000000550",
+    "macAddress": "00:AA:BB:02:26",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.41",
+    "imei": "860000000000551",
+    "macAddress": "00:AA:BB:02:27",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.42",
+    "imei": "860000000000552",
+    "macAddress": "00:AA:BB:02:28",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.43",
+    "imei": "860000000000553",
+    "macAddress": "00:AA:BB:02:29",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.44",
+    "imei": "860000000000554",
+    "macAddress": "00:AA:BB:02:2A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.45",
+    "imei": "860000000000555",
+    "macAddress": "00:AA:BB:02:2B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.46",
+    "imei": "860000000000556",
+    "macAddress": "00:AA:BB:02:2C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.47",
+    "imei": "860000000000557",
+    "macAddress": "00:AA:BB:02:2D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.48",
+    "imei": "860000000000558",
+    "macAddress": "00:AA:BB:02:2E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.49",
+    "imei": "860000000000559",
+    "macAddress": "00:AA:BB:02:2F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.50",
+    "imei": "860000000000560",
+    "macAddress": "00:AA:BB:02:30",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.51",
+    "imei": "860000000000561",
+    "macAddress": "00:AA:BB:02:31",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.52",
+    "imei": "860000000000562",
+    "macAddress": "00:AA:BB:02:32",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.53",
+    "imei": "860000000000563",
+    "macAddress": "00:AA:BB:02:33",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.54",
+    "imei": "860000000000564",
+    "macAddress": "00:AA:BB:02:34",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.55",
+    "imei": "860000000000565",
+    "macAddress": "00:AA:BB:02:35",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.56",
+    "imei": "860000000000566",
+    "macAddress": "00:AA:BB:02:36",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.57",
+    "imei": "860000000000567",
+    "macAddress": "00:AA:BB:02:37",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.58",
+    "imei": "860000000000568",
+    "macAddress": "00:AA:BB:02:38",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.59",
+    "imei": "860000000000569",
+    "macAddress": "00:AA:BB:02:39",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.60",
+    "imei": "860000000000570",
+    "macAddress": "00:AA:BB:02:3A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.61",
+    "imei": "860000000000571",
+    "macAddress": "00:AA:BB:02:3B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.62",
+    "imei": "860000000000572",
+    "macAddress": "00:AA:BB:02:3C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.63",
+    "imei": "860000000000573",
+    "macAddress": "00:AA:BB:02:3D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.64",
+    "imei": "860000000000574",
+    "macAddress": "00:AA:BB:02:3E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.65",
+    "imei": "860000000000575",
+    "macAddress": "00:AA:BB:02:3F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.66",
+    "imei": "860000000000576",
+    "macAddress": "00:AA:BB:02:40",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.67",
+    "imei": "860000000000577",
+    "macAddress": "00:AA:BB:02:41",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.68",
+    "imei": "860000000000578",
+    "macAddress": "00:AA:BB:02:42",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.69",
+    "imei": "860000000000579",
+    "macAddress": "00:AA:BB:02:43",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.70",
+    "imei": "860000000000580",
+    "macAddress": "00:AA:BB:02:44",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.71",
+    "imei": "860000000000581",
+    "macAddress": "00:AA:BB:02:45",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.72",
+    "imei": "860000000000582",
+    "macAddress": "00:AA:BB:02:46",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.73",
+    "imei": "860000000000583",
+    "macAddress": "00:AA:BB:02:47",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.74",
+    "imei": "860000000000584",
+    "macAddress": "00:AA:BB:02:48",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.75",
+    "imei": "860000000000585",
+    "macAddress": "00:AA:BB:02:49",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.76",
+    "imei": "860000000000586",
+    "macAddress": "00:AA:BB:02:4A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.77",
+    "imei": "860000000000587",
+    "macAddress": "00:AA:BB:02:4B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.78",
+    "imei": "860000000000588",
+    "macAddress": "00:AA:BB:02:4C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.79",
+    "imei": "860000000000589",
+    "macAddress": "00:AA:BB:02:4D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.80",
+    "imei": "860000000000590",
+    "macAddress": "00:AA:BB:02:4E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.81",
+    "imei": "860000000000591",
+    "macAddress": "00:AA:BB:02:4F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.82",
+    "imei": "860000000000592",
+    "macAddress": "00:AA:BB:02:50",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.83",
+    "imei": "860000000000593",
+    "macAddress": "00:AA:BB:02:51",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.84",
+    "imei": "860000000000594",
+    "macAddress": "00:AA:BB:02:52",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.85",
+    "imei": "860000000000595",
+    "macAddress": "00:AA:BB:02:53",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.86",
+    "imei": "860000000000596",
+    "macAddress": "00:AA:BB:02:54",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.87",
+    "imei": "860000000000597",
+    "macAddress": "00:AA:BB:02:55",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.88",
+    "imei": "860000000000598",
+    "macAddress": "00:AA:BB:02:56",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.89",
+    "imei": "860000000000599",
+    "macAddress": "00:AA:BB:02:57",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.90",
+    "imei": "860000000000600",
+    "macAddress": "00:AA:BB:02:58",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.91",
+    "imei": "860000000000601",
+    "macAddress": "00:AA:BB:02:59",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.92",
+    "imei": "860000000000602",
+    "macAddress": "00:AA:BB:02:5A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.93",
+    "imei": "860000000000603",
+    "macAddress": "00:AA:BB:02:5B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.94",
+    "imei": "860000000000604",
+    "macAddress": "00:AA:BB:02:5C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.95",
+    "imei": "860000000000605",
+    "macAddress": "00:AA:BB:02:5D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.96",
+    "imei": "860000000000606",
+    "macAddress": "00:AA:BB:02:5E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.97",
+    "imei": "860000000000607",
+    "macAddress": "00:AA:BB:02:5F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.98",
+    "imei": "860000000000608",
+    "macAddress": "00:AA:BB:02:60",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.99",
+    "imei": "860000000000609",
+    "macAddress": "00:AA:BB:02:61",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.100",
+    "imei": "860000000000610",
+    "macAddress": "00:AA:BB:02:62",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.101",
+    "imei": "860000000000611",
+    "macAddress": "00:AA:BB:02:63",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.102",
+    "imei": "860000000000612",
+    "macAddress": "00:AA:BB:02:64",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.103",
+    "imei": "860000000000613",
+    "macAddress": "00:AA:BB:02:65",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.104",
+    "imei": "860000000000614",
+    "macAddress": "00:AA:BB:02:66",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.105",
+    "imei": "860000000000615",
+    "macAddress": "00:AA:BB:02:67",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.106",
+    "imei": "860000000000616",
+    "macAddress": "00:AA:BB:02:68",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.107",
+    "imei": "860000000000617",
+    "macAddress": "00:AA:BB:02:69",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.108",
+    "imei": "860000000000618",
+    "macAddress": "00:AA:BB:02:6A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.109",
+    "imei": "860000000000619",
+    "macAddress": "00:AA:BB:02:6B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.110",
+    "imei": "860000000000620",
+    "macAddress": "00:AA:BB:02:6C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.111",
+    "imei": "860000000000621",
+    "macAddress": "00:AA:BB:02:6D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.112",
+    "imei": "860000000000622",
+    "macAddress": "00:AA:BB:02:6E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.113",
+    "imei": "860000000000623",
+    "macAddress": "00:AA:BB:02:6F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.114",
+    "imei": "860000000000624",
+    "macAddress": "00:AA:BB:02:70",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.115",
+    "imei": "860000000000625",
+    "macAddress": "00:AA:BB:02:71",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.116",
+    "imei": "860000000000626",
+    "macAddress": "00:AA:BB:02:72",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.117",
+    "imei": "860000000000627",
+    "macAddress": "00:AA:BB:02:73",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.118",
+    "imei": "860000000000628",
+    "macAddress": "00:AA:BB:02:74",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.119",
+    "imei": "860000000000629",
+    "macAddress": "00:AA:BB:02:75",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.120",
+    "imei": "860000000000630",
+    "macAddress": "00:AA:BB:02:76",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.121",
+    "imei": "860000000000631",
+    "macAddress": "00:AA:BB:02:77",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.122",
+    "imei": "860000000000632",
+    "macAddress": "00:AA:BB:02:78",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.123",
+    "imei": "860000000000633",
+    "macAddress": "00:AA:BB:02:79",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.124",
+    "imei": "860000000000634",
+    "macAddress": "00:AA:BB:02:7A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.125",
+    "imei": "860000000000635",
+    "macAddress": "00:AA:BB:02:7B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.126",
+    "imei": "860000000000636",
+    "macAddress": "00:AA:BB:02:7C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.127",
+    "imei": "860000000000637",
+    "macAddress": "00:AA:BB:02:7D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.128",
+    "imei": "860000000000638",
+    "macAddress": "00:AA:BB:02:7E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.129",
+    "imei": "860000000000639",
+    "macAddress": "00:AA:BB:02:7F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.130",
+    "imei": "860000000000640",
+    "macAddress": "00:AA:BB:02:80",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.131",
+    "imei": "860000000000641",
+    "macAddress": "00:AA:BB:02:81",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.132",
+    "imei": "860000000000642",
+    "macAddress": "00:AA:BB:02:82",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.133",
+    "imei": "860000000000643",
+    "macAddress": "00:AA:BB:02:83",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.134",
+    "imei": "860000000000644",
+    "macAddress": "00:AA:BB:02:84",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.135",
+    "imei": "860000000000645",
+    "macAddress": "00:AA:BB:02:85",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.136",
+    "imei": "860000000000646",
+    "macAddress": "00:AA:BB:02:86",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.137",
+    "imei": "860000000000647",
+    "macAddress": "00:AA:BB:02:87",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.138",
+    "imei": "860000000000648",
+    "macAddress": "00:AA:BB:02:88",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.139",
+    "imei": "860000000000649",
+    "macAddress": "00:AA:BB:02:89",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.140",
+    "imei": "860000000000650",
+    "macAddress": "00:AA:BB:02:8A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.141",
+    "imei": "860000000000651",
+    "macAddress": "00:AA:BB:02:8B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.142",
+    "imei": "860000000000652",
+    "macAddress": "00:AA:BB:02:8C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.143",
+    "imei": "860000000000653",
+    "macAddress": "00:AA:BB:02:8D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.144",
+    "imei": "860000000000654",
+    "macAddress": "00:AA:BB:02:8E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.145",
+    "imei": "860000000000655",
+    "macAddress": "00:AA:BB:02:8F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.146",
+    "imei": "860000000000656",
+    "macAddress": "00:AA:BB:02:90",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.147",
+    "imei": "860000000000657",
+    "macAddress": "00:AA:BB:02:91",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.148",
+    "imei": "860000000000658",
+    "macAddress": "00:AA:BB:02:92",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.149",
+    "imei": "860000000000659",
+    "macAddress": "00:AA:BB:02:93",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.150",
+    "imei": "860000000000660",
+    "macAddress": "00:AA:BB:02:94",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.151",
+    "imei": "860000000000661",
+    "macAddress": "00:AA:BB:02:95",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.152",
+    "imei": "860000000000662",
+    "macAddress": "00:AA:BB:02:96",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.153",
+    "imei": "860000000000663",
+    "macAddress": "00:AA:BB:02:97",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.154",
+    "imei": "860000000000664",
+    "macAddress": "00:AA:BB:02:98",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.155",
+    "imei": "860000000000665",
+    "macAddress": "00:AA:BB:02:99",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.156",
+    "imei": "860000000000666",
+    "macAddress": "00:AA:BB:02:9A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.157",
+    "imei": "860000000000667",
+    "macAddress": "00:AA:BB:02:9B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.158",
+    "imei": "860000000000668",
+    "macAddress": "00:AA:BB:02:9C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.159",
+    "imei": "860000000000669",
+    "macAddress": "00:AA:BB:02:9D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.160",
+    "imei": "860000000000670",
+    "macAddress": "00:AA:BB:02:9E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.161",
+    "imei": "860000000000671",
+    "macAddress": "00:AA:BB:02:9F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.162",
+    "imei": "860000000000672",
+    "macAddress": "00:AA:BB:02:A0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.163",
+    "imei": "860000000000673",
+    "macAddress": "00:AA:BB:02:A1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.164",
+    "imei": "860000000000674",
+    "macAddress": "00:AA:BB:02:A2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.165",
+    "imei": "860000000000675",
+    "macAddress": "00:AA:BB:02:A3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.166",
+    "imei": "860000000000676",
+    "macAddress": "00:AA:BB:02:A4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.167",
+    "imei": "860000000000677",
+    "macAddress": "00:AA:BB:02:A5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.168",
+    "imei": "860000000000678",
+    "macAddress": "00:AA:BB:02:A6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.169",
+    "imei": "860000000000679",
+    "macAddress": "00:AA:BB:02:A7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.170",
+    "imei": "860000000000680",
+    "macAddress": "00:AA:BB:02:A8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.171",
+    "imei": "860000000000681",
+    "macAddress": "00:AA:BB:02:A9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.172",
+    "imei": "860000000000682",
+    "macAddress": "00:AA:BB:02:AA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.173",
+    "imei": "860000000000683",
+    "macAddress": "00:AA:BB:02:AB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.174",
+    "imei": "860000000000684",
+    "macAddress": "00:AA:BB:02:AC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.175",
+    "imei": "860000000000685",
+    "macAddress": "00:AA:BB:02:AD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.176",
+    "imei": "860000000000686",
+    "macAddress": "00:AA:BB:02:AE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.177",
+    "imei": "860000000000687",
+    "macAddress": "00:AA:BB:02:AF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.178",
+    "imei": "860000000000688",
+    "macAddress": "00:AA:BB:02:B0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.179",
+    "imei": "860000000000689",
+    "macAddress": "00:AA:BB:02:B1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.180",
+    "imei": "860000000000690",
+    "macAddress": "00:AA:BB:02:B2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.181",
+    "imei": "860000000000691",
+    "macAddress": "00:AA:BB:02:B3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.182",
+    "imei": "860000000000692",
+    "macAddress": "00:AA:BB:02:B4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.183",
+    "imei": "860000000000693",
+    "macAddress": "00:AA:BB:02:B5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.184",
+    "imei": "860000000000694",
+    "macAddress": "00:AA:BB:02:B6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.185",
+    "imei": "860000000000695",
+    "macAddress": "00:AA:BB:02:B7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.186",
+    "imei": "860000000000696",
+    "macAddress": "00:AA:BB:02:B8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.187",
+    "imei": "860000000000697",
+    "macAddress": "00:AA:BB:02:B9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.188",
+    "imei": "860000000000698",
+    "macAddress": "00:AA:BB:02:BA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.189",
+    "imei": "860000000000699",
+    "macAddress": "00:AA:BB:02:BB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.190",
+    "imei": "860000000000700",
+    "macAddress": "00:AA:BB:02:BC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.191",
+    "imei": "860000000000701",
+    "macAddress": "00:AA:BB:02:BD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.192",
+    "imei": "860000000000702",
+    "macAddress": "00:AA:BB:02:BE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.193",
+    "imei": "860000000000703",
+    "macAddress": "00:AA:BB:02:BF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.194",
+    "imei": "860000000000704",
+    "macAddress": "00:AA:BB:02:C0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.195",
+    "imei": "860000000000705",
+    "macAddress": "00:AA:BB:02:C1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.196",
+    "imei": "860000000000706",
+    "macAddress": "00:AA:BB:02:C2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.197",
+    "imei": "860000000000707",
+    "macAddress": "00:AA:BB:02:C3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.198",
+    "imei": "860000000000708",
+    "macAddress": "00:AA:BB:02:C4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.199",
+    "imei": "860000000000709",
+    "macAddress": "00:AA:BB:02:C5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.200",
+    "imei": "860000000000710",
+    "macAddress": "00:AA:BB:02:C6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.201",
+    "imei": "860000000000711",
+    "macAddress": "00:AA:BB:02:C7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.202",
+    "imei": "860000000000712",
+    "macAddress": "00:AA:BB:02:C8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.203",
+    "imei": "860000000000713",
+    "macAddress": "00:AA:BB:02:C9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.204",
+    "imei": "860000000000714",
+    "macAddress": "00:AA:BB:02:CA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.205",
+    "imei": "860000000000715",
+    "macAddress": "00:AA:BB:02:CB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.206",
+    "imei": "860000000000716",
+    "macAddress": "00:AA:BB:02:CC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.207",
+    "imei": "860000000000717",
+    "macAddress": "00:AA:BB:02:CD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.208",
+    "imei": "860000000000718",
+    "macAddress": "00:AA:BB:02:CE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.209",
+    "imei": "860000000000719",
+    "macAddress": "00:AA:BB:02:CF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.210",
+    "imei": "860000000000720",
+    "macAddress": "00:AA:BB:02:D0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.211",
+    "imei": "860000000000721",
+    "macAddress": "00:AA:BB:02:D1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.212",
+    "imei": "860000000000722",
+    "macAddress": "00:AA:BB:02:D2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.213",
+    "imei": "860000000000723",
+    "macAddress": "00:AA:BB:02:D3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.214",
+    "imei": "860000000000724",
+    "macAddress": "00:AA:BB:02:D4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.215",
+    "imei": "860000000000725",
+    "macAddress": "00:AA:BB:02:D5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.216",
+    "imei": "860000000000726",
+    "macAddress": "00:AA:BB:02:D6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.217",
+    "imei": "860000000000727",
+    "macAddress": "00:AA:BB:02:D7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.218",
+    "imei": "860000000000728",
+    "macAddress": "00:AA:BB:02:D8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.219",
+    "imei": "860000000000729",
+    "macAddress": "00:AA:BB:02:D9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.220",
+    "imei": "860000000000730",
+    "macAddress": "00:AA:BB:02:DA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.221",
+    "imei": "860000000000731",
+    "macAddress": "00:AA:BB:02:DB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.222",
+    "imei": "860000000000732",
+    "macAddress": "00:AA:BB:02:DC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.223",
+    "imei": "860000000000733",
+    "macAddress": "00:AA:BB:02:DD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.224",
+    "imei": "860000000000734",
+    "macAddress": "00:AA:BB:02:DE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.225",
+    "imei": "860000000000735",
+    "macAddress": "00:AA:BB:02:DF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.226",
+    "imei": "860000000000736",
+    "macAddress": "00:AA:BB:02:E0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.227",
+    "imei": "860000000000737",
+    "macAddress": "00:AA:BB:02:E1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.228",
+    "imei": "860000000000738",
+    "macAddress": "00:AA:BB:02:E2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.229",
+    "imei": "860000000000739",
+    "macAddress": "00:AA:BB:02:E3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.230",
+    "imei": "860000000000740",
+    "macAddress": "00:AA:BB:02:E4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.231",
+    "imei": "860000000000741",
+    "macAddress": "00:AA:BB:02:E5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.232",
+    "imei": "860000000000742",
+    "macAddress": "00:AA:BB:02:E6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.233",
+    "imei": "860000000000743",
+    "macAddress": "00:AA:BB:02:E7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.234",
+    "imei": "860000000000744",
+    "macAddress": "00:AA:BB:02:E8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.235",
+    "imei": "860000000000745",
+    "macAddress": "00:AA:BB:02:E9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.236",
+    "imei": "860000000000746",
+    "macAddress": "00:AA:BB:02:EA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.237",
+    "imei": "860000000000747",
+    "macAddress": "00:AA:BB:02:EB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.238",
+    "imei": "860000000000748",
+    "macAddress": "00:AA:BB:02:EC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.239",
+    "imei": "860000000000749",
+    "macAddress": "00:AA:BB:02:ED",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.240",
+    "imei": "860000000000750",
+    "macAddress": "00:AA:BB:02:EE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.241",
+    "imei": "860000000000751",
+    "macAddress": "00:AA:BB:02:EF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.242",
+    "imei": "860000000000752",
+    "macAddress": "00:AA:BB:02:F0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.243",
+    "imei": "860000000000753",
+    "macAddress": "00:AA:BB:02:F1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.244",
+    "imei": "860000000000754",
+    "macAddress": "00:AA:BB:02:F2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.245",
+    "imei": "860000000000755",
+    "macAddress": "00:AA:BB:02:F3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.246",
+    "imei": "860000000000756",
+    "macAddress": "00:AA:BB:02:F4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.247",
+    "imei": "860000000000757",
+    "macAddress": "00:AA:BB:02:F5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.248",
+    "imei": "860000000000758",
+    "macAddress": "00:AA:BB:02:F6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.249",
+    "imei": "860000000000759",
+    "macAddress": "00:AA:BB:02:F7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.250",
+    "imei": "860000000000760",
+    "macAddress": "00:AA:BB:02:F8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.251",
+    "imei": "860000000000761",
+    "macAddress": "00:AA:BB:02:F9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.252",
+    "imei": "860000000000762",
+    "macAddress": "00:AA:BB:02:FA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.253",
+    "imei": "860000000000763",
+    "macAddress": "00:AA:BB:02:FB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.202.254",
+    "imei": "860000000000764",
+    "macAddress": "00:AA:BB:02:FC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.0",
+    "imei": "860000000000765",
+    "macAddress": "00:AA:BB:02:FD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.1",
+    "imei": "860000000000766",
+    "macAddress": "00:AA:BB:02:FE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.2",
+    "imei": "860000000000767",
+    "macAddress": "00:AA:BB:02:FF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.3",
+    "imei": "860000000000768",
+    "macAddress": "00:AA:BB:03:00",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.4",
+    "imei": "860000000000769",
+    "macAddress": "00:AA:BB:03:01",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.5",
+    "imei": "860000000000770",
+    "macAddress": "00:AA:BB:03:02",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.6",
+    "imei": "860000000000771",
+    "macAddress": "00:AA:BB:03:03",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.7",
+    "imei": "860000000000772",
+    "macAddress": "00:AA:BB:03:04",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.8",
+    "imei": "860000000000773",
+    "macAddress": "00:AA:BB:03:05",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.9",
+    "imei": "860000000000774",
+    "macAddress": "00:AA:BB:03:06",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.10",
+    "imei": "860000000000775",
+    "macAddress": "00:AA:BB:03:07",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.11",
+    "imei": "860000000000776",
+    "macAddress": "00:AA:BB:03:08",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.12",
+    "imei": "860000000000777",
+    "macAddress": "00:AA:BB:03:09",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.13",
+    "imei": "860000000000778",
+    "macAddress": "00:AA:BB:03:0A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.14",
+    "imei": "860000000000779",
+    "macAddress": "00:AA:BB:03:0B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.15",
+    "imei": "860000000000780",
+    "macAddress": "00:AA:BB:03:0C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.16",
+    "imei": "860000000000781",
+    "macAddress": "00:AA:BB:03:0D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.17",
+    "imei": "860000000000782",
+    "macAddress": "00:AA:BB:03:0E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.18",
+    "imei": "860000000000783",
+    "macAddress": "00:AA:BB:03:0F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.19",
+    "imei": "860000000000784",
+    "macAddress": "00:AA:BB:03:10",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.20",
+    "imei": "860000000000785",
+    "macAddress": "00:AA:BB:03:11",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.21",
+    "imei": "860000000000786",
+    "macAddress": "00:AA:BB:03:12",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.22",
+    "imei": "860000000000787",
+    "macAddress": "00:AA:BB:03:13",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.23",
+    "imei": "860000000000788",
+    "macAddress": "00:AA:BB:03:14",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.24",
+    "imei": "860000000000789",
+    "macAddress": "00:AA:BB:03:15",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.25",
+    "imei": "860000000000790",
+    "macAddress": "00:AA:BB:03:16",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.26",
+    "imei": "860000000000791",
+    "macAddress": "00:AA:BB:03:17",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.27",
+    "imei": "860000000000792",
+    "macAddress": "00:AA:BB:03:18",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.28",
+    "imei": "860000000000793",
+    "macAddress": "00:AA:BB:03:19",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.29",
+    "imei": "860000000000794",
+    "macAddress": "00:AA:BB:03:1A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.30",
+    "imei": "860000000000795",
+    "macAddress": "00:AA:BB:03:1B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.31",
+    "imei": "860000000000796",
+    "macAddress": "00:AA:BB:03:1C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.32",
+    "imei": "860000000000797",
+    "macAddress": "00:AA:BB:03:1D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.33",
+    "imei": "860000000000798",
+    "macAddress": "00:AA:BB:03:1E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.34",
+    "imei": "860000000000799",
+    "macAddress": "00:AA:BB:03:1F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.35",
+    "imei": "860000000000800",
+    "macAddress": "00:AA:BB:03:20",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.36",
+    "imei": "860000000000801",
+    "macAddress": "00:AA:BB:03:21",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.37",
+    "imei": "860000000000802",
+    "macAddress": "00:AA:BB:03:22",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.38",
+    "imei": "860000000000803",
+    "macAddress": "00:AA:BB:03:23",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.39",
+    "imei": "860000000000804",
+    "macAddress": "00:AA:BB:03:24",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.40",
+    "imei": "860000000000805",
+    "macAddress": "00:AA:BB:03:25",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.41",
+    "imei": "860000000000806",
+    "macAddress": "00:AA:BB:03:26",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.42",
+    "imei": "860000000000807",
+    "macAddress": "00:AA:BB:03:27",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.43",
+    "imei": "860000000000808",
+    "macAddress": "00:AA:BB:03:28",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.44",
+    "imei": "860000000000809",
+    "macAddress": "00:AA:BB:03:29",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.45",
+    "imei": "860000000000810",
+    "macAddress": "00:AA:BB:03:2A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.46",
+    "imei": "860000000000811",
+    "macAddress": "00:AA:BB:03:2B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.47",
+    "imei": "860000000000812",
+    "macAddress": "00:AA:BB:03:2C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.48",
+    "imei": "860000000000813",
+    "macAddress": "00:AA:BB:03:2D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.49",
+    "imei": "860000000000814",
+    "macAddress": "00:AA:BB:03:2E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.50",
+    "imei": "860000000000815",
+    "macAddress": "00:AA:BB:03:2F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.51",
+    "imei": "860000000000816",
+    "macAddress": "00:AA:BB:03:30",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.52",
+    "imei": "860000000000817",
+    "macAddress": "00:AA:BB:03:31",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.53",
+    "imei": "860000000000818",
+    "macAddress": "00:AA:BB:03:32",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.54",
+    "imei": "860000000000819",
+    "macAddress": "00:AA:BB:03:33",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.55",
+    "imei": "860000000000820",
+    "macAddress": "00:AA:BB:03:34",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.56",
+    "imei": "860000000000821",
+    "macAddress": "00:AA:BB:03:35",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.57",
+    "imei": "860000000000822",
+    "macAddress": "00:AA:BB:03:36",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.58",
+    "imei": "860000000000823",
+    "macAddress": "00:AA:BB:03:37",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.59",
+    "imei": "860000000000824",
+    "macAddress": "00:AA:BB:03:38",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.60",
+    "imei": "860000000000825",
+    "macAddress": "00:AA:BB:03:39",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.61",
+    "imei": "860000000000826",
+    "macAddress": "00:AA:BB:03:3A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.62",
+    "imei": "860000000000827",
+    "macAddress": "00:AA:BB:03:3B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.63",
+    "imei": "860000000000828",
+    "macAddress": "00:AA:BB:03:3C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.64",
+    "imei": "860000000000829",
+    "macAddress": "00:AA:BB:03:3D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.65",
+    "imei": "860000000000830",
+    "macAddress": "00:AA:BB:03:3E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.66",
+    "imei": "860000000000831",
+    "macAddress": "00:AA:BB:03:3F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.67",
+    "imei": "860000000000832",
+    "macAddress": "00:AA:BB:03:40",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.68",
+    "imei": "860000000000833",
+    "macAddress": "00:AA:BB:03:41",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.69",
+    "imei": "860000000000834",
+    "macAddress": "00:AA:BB:03:42",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.70",
+    "imei": "860000000000835",
+    "macAddress": "00:AA:BB:03:43",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.71",
+    "imei": "860000000000836",
+    "macAddress": "00:AA:BB:03:44",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.72",
+    "imei": "860000000000837",
+    "macAddress": "00:AA:BB:03:45",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.73",
+    "imei": "860000000000838",
+    "macAddress": "00:AA:BB:03:46",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.74",
+    "imei": "860000000000839",
+    "macAddress": "00:AA:BB:03:47",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.75",
+    "imei": "860000000000840",
+    "macAddress": "00:AA:BB:03:48",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.76",
+    "imei": "860000000000841",
+    "macAddress": "00:AA:BB:03:49",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.77",
+    "imei": "860000000000842",
+    "macAddress": "00:AA:BB:03:4A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.78",
+    "imei": "860000000000843",
+    "macAddress": "00:AA:BB:03:4B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.79",
+    "imei": "860000000000844",
+    "macAddress": "00:AA:BB:03:4C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.80",
+    "imei": "860000000000845",
+    "macAddress": "00:AA:BB:03:4D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.81",
+    "imei": "860000000000846",
+    "macAddress": "00:AA:BB:03:4E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.82",
+    "imei": "860000000000847",
+    "macAddress": "00:AA:BB:03:4F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.83",
+    "imei": "860000000000848",
+    "macAddress": "00:AA:BB:03:50",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.84",
+    "imei": "860000000000849",
+    "macAddress": "00:AA:BB:03:51",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.85",
+    "imei": "860000000000850",
+    "macAddress": "00:AA:BB:03:52",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.86",
+    "imei": "860000000000851",
+    "macAddress": "00:AA:BB:03:53",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.87",
+    "imei": "860000000000852",
+    "macAddress": "00:AA:BB:03:54",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.88",
+    "imei": "860000000000853",
+    "macAddress": "00:AA:BB:03:55",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.89",
+    "imei": "860000000000854",
+    "macAddress": "00:AA:BB:03:56",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.90",
+    "imei": "860000000000855",
+    "macAddress": "00:AA:BB:03:57",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.91",
+    "imei": "860000000000856",
+    "macAddress": "00:AA:BB:03:58",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.92",
+    "imei": "860000000000857",
+    "macAddress": "00:AA:BB:03:59",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.93",
+    "imei": "860000000000858",
+    "macAddress": "00:AA:BB:03:5A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.94",
+    "imei": "860000000000859",
+    "macAddress": "00:AA:BB:03:5B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.95",
+    "imei": "860000000000860",
+    "macAddress": "00:AA:BB:03:5C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.96",
+    "imei": "860000000000861",
+    "macAddress": "00:AA:BB:03:5D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.97",
+    "imei": "860000000000862",
+    "macAddress": "00:AA:BB:03:5E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.98",
+    "imei": "860000000000863",
+    "macAddress": "00:AA:BB:03:5F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.99",
+    "imei": "860000000000864",
+    "macAddress": "00:AA:BB:03:60",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.100",
+    "imei": "860000000000865",
+    "macAddress": "00:AA:BB:03:61",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.101",
+    "imei": "860000000000866",
+    "macAddress": "00:AA:BB:03:62",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.102",
+    "imei": "860000000000867",
+    "macAddress": "00:AA:BB:03:63",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.103",
+    "imei": "860000000000868",
+    "macAddress": "00:AA:BB:03:64",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.104",
+    "imei": "860000000000869",
+    "macAddress": "00:AA:BB:03:65",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.105",
+    "imei": "860000000000870",
+    "macAddress": "00:AA:BB:03:66",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.106",
+    "imei": "860000000000871",
+    "macAddress": "00:AA:BB:03:67",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.107",
+    "imei": "860000000000872",
+    "macAddress": "00:AA:BB:03:68",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.108",
+    "imei": "860000000000873",
+    "macAddress": "00:AA:BB:03:69",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.109",
+    "imei": "860000000000874",
+    "macAddress": "00:AA:BB:03:6A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.110",
+    "imei": "860000000000875",
+    "macAddress": "00:AA:BB:03:6B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.111",
+    "imei": "860000000000876",
+    "macAddress": "00:AA:BB:03:6C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.112",
+    "imei": "860000000000877",
+    "macAddress": "00:AA:BB:03:6D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.113",
+    "imei": "860000000000878",
+    "macAddress": "00:AA:BB:03:6E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.114",
+    "imei": "860000000000879",
+    "macAddress": "00:AA:BB:03:6F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.115",
+    "imei": "860000000000880",
+    "macAddress": "00:AA:BB:03:70",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.116",
+    "imei": "860000000000881",
+    "macAddress": "00:AA:BB:03:71",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.117",
+    "imei": "860000000000882",
+    "macAddress": "00:AA:BB:03:72",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.118",
+    "imei": "860000000000883",
+    "macAddress": "00:AA:BB:03:73",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.119",
+    "imei": "860000000000884",
+    "macAddress": "00:AA:BB:03:74",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.120",
+    "imei": "860000000000885",
+    "macAddress": "00:AA:BB:03:75",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.121",
+    "imei": "860000000000886",
+    "macAddress": "00:AA:BB:03:76",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.122",
+    "imei": "860000000000887",
+    "macAddress": "00:AA:BB:03:77",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.123",
+    "imei": "860000000000888",
+    "macAddress": "00:AA:BB:03:78",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.124",
+    "imei": "860000000000889",
+    "macAddress": "00:AA:BB:03:79",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.125",
+    "imei": "860000000000890",
+    "macAddress": "00:AA:BB:03:7A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.126",
+    "imei": "860000000000891",
+    "macAddress": "00:AA:BB:03:7B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.127",
+    "imei": "860000000000892",
+    "macAddress": "00:AA:BB:03:7C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.128",
+    "imei": "860000000000893",
+    "macAddress": "00:AA:BB:03:7D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.129",
+    "imei": "860000000000894",
+    "macAddress": "00:AA:BB:03:7E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.130",
+    "imei": "860000000000895",
+    "macAddress": "00:AA:BB:03:7F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.131",
+    "imei": "860000000000896",
+    "macAddress": "00:AA:BB:03:80",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.132",
+    "imei": "860000000000897",
+    "macAddress": "00:AA:BB:03:81",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.133",
+    "imei": "860000000000898",
+    "macAddress": "00:AA:BB:03:82",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.134",
+    "imei": "860000000000899",
+    "macAddress": "00:AA:BB:03:83",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.135",
+    "imei": "860000000000900",
+    "macAddress": "00:AA:BB:03:84",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.136",
+    "imei": "860000000000901",
+    "macAddress": "00:AA:BB:03:85",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.137",
+    "imei": "860000000000902",
+    "macAddress": "00:AA:BB:03:86",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.138",
+    "imei": "860000000000903",
+    "macAddress": "00:AA:BB:03:87",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.139",
+    "imei": "860000000000904",
+    "macAddress": "00:AA:BB:03:88",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.140",
+    "imei": "860000000000905",
+    "macAddress": "00:AA:BB:03:89",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.141",
+    "imei": "860000000000906",
+    "macAddress": "00:AA:BB:03:8A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.142",
+    "imei": "860000000000907",
+    "macAddress": "00:AA:BB:03:8B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.143",
+    "imei": "860000000000908",
+    "macAddress": "00:AA:BB:03:8C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.144",
+    "imei": "860000000000909",
+    "macAddress": "00:AA:BB:03:8D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.145",
+    "imei": "860000000000910",
+    "macAddress": "00:AA:BB:03:8E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.146",
+    "imei": "860000000000911",
+    "macAddress": "00:AA:BB:03:8F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.147",
+    "imei": "860000000000912",
+    "macAddress": "00:AA:BB:03:90",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.148",
+    "imei": "860000000000913",
+    "macAddress": "00:AA:BB:03:91",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.149",
+    "imei": "860000000000914",
+    "macAddress": "00:AA:BB:03:92",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.150",
+    "imei": "860000000000915",
+    "macAddress": "00:AA:BB:03:93",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.151",
+    "imei": "860000000000916",
+    "macAddress": "00:AA:BB:03:94",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.152",
+    "imei": "860000000000917",
+    "macAddress": "00:AA:BB:03:95",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.153",
+    "imei": "860000000000918",
+    "macAddress": "00:AA:BB:03:96",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.154",
+    "imei": "860000000000919",
+    "macAddress": "00:AA:BB:03:97",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.155",
+    "imei": "860000000000920",
+    "macAddress": "00:AA:BB:03:98",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.156",
+    "imei": "860000000000921",
+    "macAddress": "00:AA:BB:03:99",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.157",
+    "imei": "860000000000922",
+    "macAddress": "00:AA:BB:03:9A",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.158",
+    "imei": "860000000000923",
+    "macAddress": "00:AA:BB:03:9B",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.159",
+    "imei": "860000000000924",
+    "macAddress": "00:AA:BB:03:9C",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.160",
+    "imei": "860000000000925",
+    "macAddress": "00:AA:BB:03:9D",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.161",
+    "imei": "860000000000926",
+    "macAddress": "00:AA:BB:03:9E",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.162",
+    "imei": "860000000000927",
+    "macAddress": "00:AA:BB:03:9F",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.163",
+    "imei": "860000000000928",
+    "macAddress": "00:AA:BB:03:A0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.164",
+    "imei": "860000000000929",
+    "macAddress": "00:AA:BB:03:A1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.165",
+    "imei": "860000000000930",
+    "macAddress": "00:AA:BB:03:A2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.166",
+    "imei": "860000000000931",
+    "macAddress": "00:AA:BB:03:A3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.167",
+    "imei": "860000000000932",
+    "macAddress": "00:AA:BB:03:A4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.168",
+    "imei": "860000000000933",
+    "macAddress": "00:AA:BB:03:A5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.169",
+    "imei": "860000000000934",
+    "macAddress": "00:AA:BB:03:A6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.170",
+    "imei": "860000000000935",
+    "macAddress": "00:AA:BB:03:A7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.171",
+    "imei": "860000000000936",
+    "macAddress": "00:AA:BB:03:A8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.172",
+    "imei": "860000000000937",
+    "macAddress": "00:AA:BB:03:A9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.173",
+    "imei": "860000000000938",
+    "macAddress": "00:AA:BB:03:AA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.174",
+    "imei": "860000000000939",
+    "macAddress": "00:AA:BB:03:AB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.175",
+    "imei": "860000000000940",
+    "macAddress": "00:AA:BB:03:AC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.176",
+    "imei": "860000000000941",
+    "macAddress": "00:AA:BB:03:AD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.177",
+    "imei": "860000000000942",
+    "macAddress": "00:AA:BB:03:AE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.178",
+    "imei": "860000000000943",
+    "macAddress": "00:AA:BB:03:AF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.179",
+    "imei": "860000000000944",
+    "macAddress": "00:AA:BB:03:B0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.180",
+    "imei": "860000000000945",
+    "macAddress": "00:AA:BB:03:B1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.181",
+    "imei": "860000000000946",
+    "macAddress": "00:AA:BB:03:B2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.182",
+    "imei": "860000000000947",
+    "macAddress": "00:AA:BB:03:B3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.183",
+    "imei": "860000000000948",
+    "macAddress": "00:AA:BB:03:B4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.184",
+    "imei": "860000000000949",
+    "macAddress": "00:AA:BB:03:B5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.185",
+    "imei": "860000000000950",
+    "macAddress": "00:AA:BB:03:B6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.186",
+    "imei": "860000000000951",
+    "macAddress": "00:AA:BB:03:B7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.187",
+    "imei": "860000000000952",
+    "macAddress": "00:AA:BB:03:B8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.188",
+    "imei": "860000000000953",
+    "macAddress": "00:AA:BB:03:B9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.189",
+    "imei": "860000000000954",
+    "macAddress": "00:AA:BB:03:BA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.190",
+    "imei": "860000000000955",
+    "macAddress": "00:AA:BB:03:BB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.191",
+    "imei": "860000000000956",
+    "macAddress": "00:AA:BB:03:BC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.192",
+    "imei": "860000000000957",
+    "macAddress": "00:AA:BB:03:BD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.193",
+    "imei": "860000000000958",
+    "macAddress": "00:AA:BB:03:BE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.194",
+    "imei": "860000000000959",
+    "macAddress": "00:AA:BB:03:BF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.195",
+    "imei": "860000000000960",
+    "macAddress": "00:AA:BB:03:C0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.196",
+    "imei": "860000000000961",
+    "macAddress": "00:AA:BB:03:C1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.197",
+    "imei": "860000000000962",
+    "macAddress": "00:AA:BB:03:C2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.198",
+    "imei": "860000000000963",
+    "macAddress": "00:AA:BB:03:C3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.199",
+    "imei": "860000000000964",
+    "macAddress": "00:AA:BB:03:C4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.200",
+    "imei": "860000000000965",
+    "macAddress": "00:AA:BB:03:C5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.201",
+    "imei": "860000000000966",
+    "macAddress": "00:AA:BB:03:C6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.202",
+    "imei": "860000000000967",
+    "macAddress": "00:AA:BB:03:C7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.203",
+    "imei": "860000000000968",
+    "macAddress": "00:AA:BB:03:C8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.204",
+    "imei": "860000000000969",
+    "macAddress": "00:AA:BB:03:C9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.205",
+    "imei": "860000000000970",
+    "macAddress": "00:AA:BB:03:CA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.206",
+    "imei": "860000000000971",
+    "macAddress": "00:AA:BB:03:CB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.207",
+    "imei": "860000000000972",
+    "macAddress": "00:AA:BB:03:CC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.208",
+    "imei": "860000000000973",
+    "macAddress": "00:AA:BB:03:CD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.209",
+    "imei": "860000000000974",
+    "macAddress": "00:AA:BB:03:CE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.210",
+    "imei": "860000000000975",
+    "macAddress": "00:AA:BB:03:CF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.211",
+    "imei": "860000000000976",
+    "macAddress": "00:AA:BB:03:D0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.212",
+    "imei": "860000000000977",
+    "macAddress": "00:AA:BB:03:D1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.213",
+    "imei": "860000000000978",
+    "macAddress": "00:AA:BB:03:D2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.214",
+    "imei": "860000000000979",
+    "macAddress": "00:AA:BB:03:D3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.215",
+    "imei": "860000000000980",
+    "macAddress": "00:AA:BB:03:D4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.216",
+    "imei": "860000000000981",
+    "macAddress": "00:AA:BB:03:D5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.217",
+    "imei": "860000000000982",
+    "macAddress": "00:AA:BB:03:D6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.218",
+    "imei": "860000000000983",
+    "macAddress": "00:AA:BB:03:D7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.219",
+    "imei": "860000000000984",
+    "macAddress": "00:AA:BB:03:D8",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.220",
+    "imei": "860000000000985",
+    "macAddress": "00:AA:BB:03:D9",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.221",
+    "imei": "860000000000986",
+    "macAddress": "00:AA:BB:03:DA",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.222",
+    "imei": "860000000000987",
+    "macAddress": "00:AA:BB:03:DB",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.223",
+    "imei": "860000000000988",
+    "macAddress": "00:AA:BB:03:DC",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.224",
+    "imei": "860000000000989",
+    "macAddress": "00:AA:BB:03:DD",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.225",
+    "imei": "860000000000990",
+    "macAddress": "00:AA:BB:03:DE",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.226",
+    "imei": "860000000000991",
+    "macAddress": "00:AA:BB:03:DF",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.227",
+    "imei": "860000000000992",
+    "macAddress": "00:AA:BB:03:E0",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.228",
+    "imei": "860000000000993",
+    "macAddress": "00:AA:BB:03:E1",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.229",
+    "imei": "860000000000994",
+    "macAddress": "00:AA:BB:03:E2",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.230",
+    "imei": "860000000000995",
+    "macAddress": "00:AA:BB:03:E3",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.231",
+    "imei": "860000000000996",
+    "macAddress": "00:AA:BB:03:E4",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.232",
+    "imei": "860000000000997",
+    "macAddress": "00:AA:BB:03:E5",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.233",
+    "imei": "860000000000998",
+    "macAddress": "00:AA:BB:03:E6",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.234",
+    "imei": "860000000000999",
+    "macAddress": "00:AA:BB:03:E7",
+    "assigned": false
+  },
+  {
+    "ipAddress": "192.168.203.235",
+    "imei": "860000000001000",
+    "macAddress": "00:AA:BB:03:E8",
     "assigned": false
   }
 ]
