@@ -15,8 +15,8 @@ class Enhanced500NodeTest {
             requestDelay: 300,
             timeout: 30000,
             maxRetries: 3,
-            extremeBehaviorRatio: 0.9, // 90% of malicious feedback will be extreme
-            consensusDeviationThreshold: 50 // Lowered for better detection
+            extremeBehaviorRatio: 0.9, 
+            consensusDeviationThreshold: 50 
         };
 
         this.web3 = new Web3('http://localhost:8545');
