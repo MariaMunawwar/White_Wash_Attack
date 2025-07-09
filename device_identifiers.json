@@ -3051,19 +3051,19 @@
     "ipAddress": "192.168.201.254",
     "imei": "860000000000509",
     "macAddress": "00:AA:BB:01:FD",
-    "assigned": true
+    "assigned": false
   },
   {
     "ipAddress": "192.168.202.0",
     "imei": "860000000000510",
     "macAddress": "00:AA:BB:01:FE",
-    "assigned": true
+    "assigned": false
   },
   {
     "ipAddress": "192.168.202.1",
     "imei": "860000000000511",
     "macAddress": "00:AA:BB:01:FF",
-    "assigned": true
+    "assigned": false
   },
   {
     "ipAddress": "192.168.202.2",
