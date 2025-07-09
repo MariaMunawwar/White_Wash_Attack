@@ -18,6 +18,8 @@
 ## Complete Project Demo
 [Watch the system in action](https://youtu.be/zpFr3A-v7ek)
 
+[Catering Reviewers Feedback in this video](https://youtu.be/Jsbnvb7tQ18)
+
 ## Project Overview
 The White-Wash Resilient Blockchain Trust Management System is designed to prevent whitewashing attacks by implementing blockchain-based device tracking. It ensures secure registration, reputation-based access control, and immutable blacklisting of malicious users to maintain trust and security within the system. 
 
